@@ -50,14 +50,20 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Irbaaz\tstTeams.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Ahmed\" />
     <Folder Include="Clinton\" />
     <Folder Include="Dylan\" />
-    <Folder Include="Irbaaz\" />
     <Folder Include="Mudrik\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Class Library\Class Library.csproj">
+      <Project>{30029452-BA29-46EB-B9F5-BBF30B1F03B3}</Project>
+      <Name>Class Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
