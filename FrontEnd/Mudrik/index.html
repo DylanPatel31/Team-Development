@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Timeless Films</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="Images/jquery.js"></script>
+    <script src="Images/script.js"></script>
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <header class="top">
+        <div class="container">
+
+            <div class="main-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="SearchFilm.aspx">Our Films</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </header>
+    <!-- HEADER -->
+    <!-- LOGIN -->
+    <section class="login">
+        <div class="container">
+            <div class="title"><h2 class="center-text">Login</h2></div>
+            <div class="one-col">
+                <div class="center-text">
+                    <form action="login_redirect.aspx" method="post" id="login1_form">
+                        <label for="Username">
+                            <strong>Username</strong>
+                        </label>
+                        <input type="text" name="txtEmail" id="username" placeholder="Enter your Email"><br />
+                        <label for="password">
+                            <strong>Password</strong>
+                        </label>
+                        <input type="password" name="txtPassword" id="password" placeholder="Enter your Password"><br>
+                        <button type="submit" class="button button-dark" id="login1">Login</button><br />
+                        <label for="error"></label>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- LOGIN -->
+
+
+    <section7 class="login2">
+        <div class="container2">
+            <div class="title"><h1 class="center-text"></h1></div>
+            <div class="one-col">
+                <div class="center-text">
+                    <form action="Register.aspx" method="post" id="login1_form">
+                        <button type="submit" class="button button-dark" id="login1">Register</button><br />
+                        <label for="error"></label>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section7>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Background-Colour changer -->
+    <article>
+        <time>
+            <th width="234" height="128" scope="col">
+                <div id="backgroundchange">
+                    <select name="select" onChange="if(this.selectedIndex!=0)
+document.bgColor=this.options[this.selectedIndex].value">
+                        <option value="choose" selected>Change Background Colour : </option>
+                        <option value="FFFFFF">White </option>
+                        <option value="2c50a2">Dark blue </option>
+                        <option value="663399">Purple</option>
+                        <option value="f60000">Blood Red</option>
+                        <option value="e800f6">Pink</option>
+                        <option value="00a5f6">Sky Blue</option>
+                        <option value="75ab00">Green</option>
+                        <option value="91f600">Grass Green</option>
+                        <option value="000000">Black</option>
+                        <option value="ffa500">Orange</option>
+                        <option value="ff69b4">Light Pink</option>
+                        <option value="00c5cd">Turquoise</option>
+                        <option value="551a8b">Dark Purple</option>
+                        <option value="a020f0">Light Purple</option>
+                        <option value="ffdab9">Peach</option>
+                    </select>
+                </div>
+            </th>
+        </time>
+    </article>
+    <!-- Background-Colour changer -->
+    <!-- Banner -->
+    <section class="banner">
+
+        <div id="slider">
+            <p class="quanntitle">T I M E L E S S &nbsp; &nbsp; F I L M S </p>
+            <a href="#" class="control_next">>></a>
+            <a href="#" class="control_prev"><<</a>
+            <ul style="margin-left:0 !important;">
+                <li style="background:url(img/Movie2.jpg) center left" style="width:100%" alt="slide5"></li>
+                <li style="background:url(img/Movie3.jpg) center left" style="width:100%" alt="slide3"></li>
+                <li style="background:url(img/Movie55.jpg)  center left" style="width:100%" alt="slide4"></li>
+                <li style="background:url(img/Movie77.png) center left" style="width:100%" alt="slide5"></li>
+                <li style="background:url(img/Movie1.jpg) center left" style="width:100%" alt="slide6"></li>
+            </ul>
+        </div>
+
+    </section>
+    <!-- Banner -->
+</body>
+</html>

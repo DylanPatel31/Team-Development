@@ -1,0 +1,446 @@
+﻿/* FOOTER */
+.site-footer {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 16px 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+
+/* FOOTER */
+
+
+
+section7 {
+    position: absolute;
+    top: 21.3%;
+    left: 52.3%;
+}
+
+section8 {
+    position: absolute;
+    top: 22.6%;
+    left: 52.3%;
+}
+
+section3 {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 48%;
+    left: 20%;
+}
+
+
+
+
+
+section4 {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 65%;
+    left: 36%;
+}
+
+
+
+
+
+/* Map positioning */
+section2 {
+    position: absolute;
+    z-index: 14;
+    left: 55%;
+    top: 57.8%;
+}
+/* Map positioning */
+
+
+article {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 1.4%;
+    left: 1%;
+}
+
+
+
+/* CONTACT */
+.contact input {
+    margin-bottom: 16px;
+    border-radius: 2px;
+    border: 1px solid #DDDDDD;
+    padding: 8px;
+    width: 80%;
+}
+
+.contact .col-half {
+    margin-top: 16px;
+}
+/* CONTACT */
+
+
+
+
+
+/* HEADER */
+.top {
+    height: 60px;
+    background: #4B0082;
+}
+
+    .top a {
+        color: #FFD700;
+        text-decoration: none;
+    }
+
+.logo {
+    float: left;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.main-menu {
+    float: right;
+}
+
+    .main-menu li {
+        float: left;
+        line-height: 60px;
+        padding: 0 10px;
+    }
+
+        .main-menu li :hover {
+            color: #F44336;
+        }
+/* HEADER */
+
+
+
+
+
+/* BANNER */
+.banner {
+    color: #FFFFFF;
+    background: #000000;
+    margin-bottom: 50px;
+    background: url("../img/top.jpg") 0 -140px;
+    background-repeat: no-repeat;
+}
+
+    .banner h1 {
+        margin-bottom: 30px;
+    }
+/* BANNER */
+
+
+
+
+
+/* Background-Colour changer  */
+time {
+}
+
+/* Background-Colour changer  */
+
+
+
+
+
+
+/* TABLES */
+.tables table {
+    color: #310404;
+}
+
+    .tables table tr:nth-child(even) {
+        background-color: #f2f2f2
+    }
+
+    .tables table th {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .tables table tr:hover {
+        background-color: #f5f5f5
+    }
+
+    .tables table th, td {
+        padding: 5px;
+        text-align: left;
+    }
+/* TABLES */
+
+
+
+
+
+
+
+
+/*  Below is one of the settings for the menu bar */
+ol, ul {
+    list-style: none;
+}
+/*  Below is one of the settings for the menu bar */
+
+
+
+
+
+/* GLOBAL TEXT STYLE */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E6E6FA;
+    line-height: 1.7;
+    margin: 0 0 100px;
+}
+
+p {
+    margin-top: 6px;
+}
+
+h2, h3, h4, label {
+    color: #4B0082;
+}
+
+h1 {
+    font-size: 54px;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+}
+
+h1, h3, h4, strong {
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.title {
+    margin-top: 33px;
+}
+/* GLOBAL TEXT STYLE */
+
+
+
+
+
+/* COLUMNS, SECTIONS, CONTENERS */
+@media screen and (min-width: 960px) {
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+
+    .col-one-third {
+        width: 33.3333%;
+        float: left;
+    }
+
+    .col-half {
+        width: 50%;
+        float: left;
+    }
+
+    .one-col {
+        width: 100%;
+        float: left;
+    }
+}
+
+section {
+    clear: both;
+    padding: 0px 0;
+    overflow: auto;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
+}
+/* COLUMNS, SECTIONS, CONTENERS */
+
+
+
+
+
+/* BUTTONS */
+.button {
+    font-family: Arial, sant-serif;
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 16px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-light {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.button-dark {
+    background: #480082;
+    color: #FFFFFF;
+}
+
+.button:hover {
+    background: #19a1a8;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #19a1a8;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    border: none;
+    border-radius: 5px;
+}
+/* BUTTONS */
+
+
+
+
+
+/* SLIDER */
+
+#slider {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    border-radius: 0px 0px 4px 4px;
+    width: 100%;
+}
+
+.quanntitle {
+    z-index: 99988;
+    font-size: 70px;
+    width: 600px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    color: #FFD700;
+}
+
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    list-style: none;
+}
+
+    #slider ul li {
+        position: relative;
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 600px;
+        background: #ccc;
+        text-align: center;
+        line-height: 600px;
+    }
+
+a.control_prev, a.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 99989;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+    a.control_prev:hover, a.control_next:hover {
+        opacity: 1;
+        -webkit-transition: all 0.2s ease;
+    }
+
+a.control_prev {
+    border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+    position: relative;
+    margin: 10px auto;
+    width: 160px;
+    font-size: 18px;
+}
+/* SLIDER */
+
+
+
+
+
+/* DELETE BUTTONS HOVER  */
+a: hover {
+    background: #ffffff;
+    text-decoration: none;
+}
+
+a.adnotation span {
+    display: none;
+    padding: 2px 3px;
+    margin-left: 8px;
+    width: 130px;
+}
+
+img {
+    border: none;
+}
+
+a.adnotation:hover span {
+    display: inline;
+    position: absolute;
+    margin: 15px 0 0 5px;
+    background: #dddddd;
+    border: 1px solid #b30000;
+    color: #000000;
+    opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+    text-align: center;
+}
+/* DELETE BUTTONS HOVER  */
+
+
+
+
