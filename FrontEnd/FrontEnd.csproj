@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Clinton\AddRoom.aspx" />
+    <Content Include="Clinton\EditRoom.aspx" />
+    <Content Include="Clinton\Index.aspx" />
+    <Content Include="Clinton\ViewRoom.aspx" />
     <Content Include="Mudrik\AboutUs.html" />
     <Content Include="Mudrik\Admin\Admin_Menu.aspx" />
     <Content Include="Mudrik\Error.html" />
@@ -91,6 +95,30 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clinton\AddRoom.aspx.cs">
+      <DependentUpon>AddRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\AddRoom.aspx.designer.cs">
+      <DependentUpon>AddRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\EditRoom.aspx.cs">
+      <DependentUpon>EditRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\EditRoom.aspx.designer.cs">
+      <DependentUpon>EditRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\ViewRoom.aspx.cs">
+      <DependentUpon>ViewRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\ViewRoom.aspx.designer.cs">
+      <DependentUpon>ViewRoom.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Mudrik\Admin\Admin_Menu.aspx.cs">
       <DependentUpon>Admin_Menu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -146,7 +174,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Ahmed\" />
-    <Folder Include="Clinton\" />
+    <Folder Include="Clinton\admin\room\" />
     <Folder Include="Dylan\" />
     <Folder Include="Irbaaz\" />
   </ItemGroup>
