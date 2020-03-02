@@ -52,7 +52,7 @@
             //get the copy No from the form
             string fk1_filmCast_id = Request.Form["txtfk1_filmCast_id"];
             //connect to the database
-            clsDataConnection DB = new clsDataConnection();
+            Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
             //add parameter to the sproc
             //send the data to the store procedure
             DB.AddParameter("@filmName", filmName);

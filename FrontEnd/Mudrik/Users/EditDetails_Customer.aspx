@@ -66,7 +66,7 @@
 
 
                         //connect to the database
-                        clsDataConnection DB = new clsDataConnection();
+                        Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
                         //send the primary key
                         DB.AddParameter("@query_user_id", user_id);
                         //execute the stored procedure

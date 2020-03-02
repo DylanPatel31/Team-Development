@@ -78,7 +78,7 @@
             string fk1_userType_id = "";
             Int32 Index = 0;
             //connection to the database
-            clsDataConnection DB = new clsDataConnection();
+            Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
             //add parameter
             DB.AddParameter("@search", search);
             //execute procedure displaying all book copies
@@ -141,7 +141,7 @@
         else if(search == null && delete != null)
         {
             //reset the db connection
-            clsDataConnection DB = new clsDataConnection();
+            Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
             //send the isbn number to the delete procedue
             DB.AddParameter("@delete", delete);
             //execute procedure deleting the book and all associated copies
