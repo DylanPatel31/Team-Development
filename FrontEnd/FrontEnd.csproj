@@ -71,9 +71,6 @@
     <Content Include="Clinton\EditRoom.aspx" />
     <Content Include="Clinton\Index.aspx" />
     <Content Include="Clinton\ViewRoom.aspx" />
-    <Content Include="Mudrik\AboutUs.html" />
-    <Content Include="Mudrik\Admin\Admin_Menu.aspx" />
-    <Content Include="Mudrik\Error.html" />
     <Content Include="Mudrik\Images\jquery.js" />
     <Content Include="Mudrik\Images\script.js" />
     <Content Include="Mudrik\Images\scripts2.js" />
@@ -84,14 +81,7 @@
     <Content Include="Mudrik\img\Movie4.jpg" />
     <Content Include="Mudrik\img\Movie55.jpg" />
     <Content Include="Mudrik\img\movie77.png" />
-    <Content Include="Mudrik\index.html" />
-    <Content Include="Mudrik\LoginPage.html" />
-    <Content Include="Mudrik\login_redirect.aspx" />
-    <Content Include="Mudrik\SearchFilm.aspx" />
-    <Content Include="Mudrik\SearchFilm_Search.aspx" />
-    <Content Include="Mudrik\Staff\Staff_Menu.aspx" />
     <Content Include="Mudrik\style\style.css" />
-    <Content Include="Mudrik\Users\Users_Menu.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -119,48 +109,6 @@
     <Compile Include="Clinton\ViewRoom.aspx.designer.cs">
       <DependentUpon>ViewRoom.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Mudrik\Admin\Admin_Menu.aspx.cs">
-      <DependentUpon>Admin_Menu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Mudrik\Admin\Admin_Menu.aspx.designer.cs">
-      <DependentUpon>Admin_Menu.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Mudrik\login_redirect.aspx.cs">
-      <DependentUpon>login_redirect.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Mudrik\login_redirect.aspx.designer.cs">
-      <DependentUpon>login_redirect.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Mudrik\SearchFilm.aspx.cs">
-      <DependentUpon>SearchFilm.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Mudrik\SearchFilm.aspx.designer.cs">
-      <DependentUpon>SearchFilm.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Mudrik\SearchFilm_Search.aspx.cs">
-      <DependentUpon>SearchFilm_Search.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Mudrik\SearchFilm_Search.aspx.designer.cs">
-      <DependentUpon>SearchFilm_Search.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Mudrik\Staff\Staff_Menu.aspx.cs">
-      <DependentUpon>Staff_Menu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Mudrik\Staff\Staff_Menu.aspx.designer.cs">
-      <DependentUpon>Staff_Menu.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Mudrik\Users\Users_Menu.aspx.cs">
-      <DependentUpon>Users_Menu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Mudrik\Users\Users_Menu.aspx.designer.cs">
-      <DependentUpon>Users_Menu.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -177,6 +125,9 @@
     <Folder Include="Clinton\admin\room\" />
     <Folder Include="Dylan\" />
     <Folder Include="Irbaaz\" />
+    <Folder Include="Mudrik\Admin\" />
+    <Folder Include="Mudrik\Staff\" />
+    <Folder Include="Mudrik\Users\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Class Library\Class Library.csproj">
