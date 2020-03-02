@@ -74,7 +74,7 @@
             string price = "";
             Int32 Index = 0;
             //connection to the database
-            clsDataConnection DB = new clsDataConnection();
+            Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
             //execute procedure displaying all book copies
             DB.Execute("sproc_tblBooking_AllBookings");
             //start of table in which we display the results

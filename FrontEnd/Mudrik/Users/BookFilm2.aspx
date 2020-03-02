@@ -51,7 +51,7 @@
             //get the copy No from the form
             string price = Request.Form["txtprice"];
             //connect to the database
-            clsDataConnection DB = new clsDataConnection();
+            Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
             //add parameter to the sproc
             //send the data to the store procedure
             DB.AddParameter("@booking_id", booking_id);
