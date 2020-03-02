@@ -71,6 +71,32 @@
     <Content Include="Clinton\EditRoom.aspx" />
     <Content Include="Clinton\Index.aspx" />
     <Content Include="Clinton\ViewRoom.aspx" />
+    <Content Include="Mudrik\Admin\AddCustomer.aspx" />
+    <Content Include="Mudrik\Admin\AddCustomer2.aspx" />
+    <Content Include="Mudrik\Admin\AddFilm.aspx" />
+    <Content Include="Mudrik\Admin\AddFilm2.aspx" />
+    <Content Include="Mudrik\Admin\AddShowing.aspx" />
+    <Content Include="Mudrik\Admin\AddShowing2.aspx" />
+    <Content Include="Mudrik\Admin\BookFilm.aspx" />
+    <Content Include="Mudrik\Admin\BookFilm2.aspx" />
+    <Content Include="Mudrik\Admin\EditDetails_Admin.aspx" />
+    <Content Include="Mudrik\Admin\EditDetails_Admin_Script.aspx" />
+    <Content Include="Mudrik\Admin\MainMenu.aspx" />
+    <Content Include="Mudrik\Admin\SearchBooking.aspx" />
+    <Content Include="Mudrik\Admin\SearchBooking_Action.aspx" />
+    <Content Include="Mudrik\Admin\SearchBooking_Action2.aspx" />
+    <Content Include="Mudrik\Admin\SearchCustomer.aspx" />
+    <Content Include="Mudrik\Admin\SearchCustomer_Action.aspx" />
+    <Content Include="Mudrik\Admin\SearchCustomer_Action2.aspx" />
+    <Content Include="Mudrik\Admin\SearchFilm.aspx" />
+    <Content Include="Mudrik\Admin\SearchFilm_Action.aspx" />
+    <Content Include="Mudrik\Admin\SearchFilm_Action2.aspx" />
+    <Content Include="Mudrik\Admin\SearchShowing.aspx" />
+    <Content Include="Mudrik\Admin\SearchShowing_Action.aspx" />
+    <Content Include="Mudrik\Admin\SearchShowing_Action2.aspx" />
+    <Content Include="Mudrik\Admin\SearchStaff.aspx" />
+    <Content Include="Mudrik\Admin\SearchStaff_Action.aspx" />
+    <Content Include="Mudrik\Admin\SearchStaff_Action2.aspx" />
     <Content Include="Mudrik\Images\jquery.js" />
     <Content Include="Mudrik\Images\script.js" />
     <Content Include="Mudrik\Images\scripts2.js" />
@@ -81,7 +107,41 @@
     <Content Include="Mudrik\img\Movie4.jpg" />
     <Content Include="Mudrik\img\Movie55.jpg" />
     <Content Include="Mudrik\img\movie77.png" />
+    <Content Include="Mudrik\Staff\AddCustomer.aspx" />
+    <Content Include="Mudrik\Staff\AddCustomer2.aspx" />
+    <Content Include="Mudrik\Staff\AddFilm.aspx" />
+    <Content Include="Mudrik\Staff\AddFilm2.aspx" />
+    <Content Include="Mudrik\Staff\AddShowing.aspx" />
+    <Content Include="Mudrik\Staff\AddShowing2.aspx" />
+    <Content Include="Mudrik\Staff\BookFilm.aspx" />
+    <Content Include="Mudrik\Staff\BookFilm2.aspx" />
+    <Content Include="Mudrik\Staff\EditDetails_Staff.aspx" />
+    <Content Include="Mudrik\Staff\EditDetails_Staff_Script.aspx" />
+    <Content Include="Mudrik\Staff\SearchBooking.aspx" />
+    <Content Include="Mudrik\Staff\SearchBooking_Action.aspx" />
+    <Content Include="Mudrik\Staff\SearchBooking_Action2.aspx" />
+    <Content Include="Mudrik\Staff\SearchCustomer.aspx" />
+    <Content Include="Mudrik\Staff\SearchCustomer_Action.aspx" />
+    <Content Include="Mudrik\Staff\SearchCustomer_Action2.aspx" />
+    <Content Include="Mudrik\Staff\SearchFilm.aspx" />
+    <Content Include="Mudrik\Staff\SearchFilm_Action.aspx" />
+    <Content Include="Mudrik\Staff\SearchFilm_Action2.aspx" />
+    <Content Include="Mudrik\Staff\SearchShowing.aspx" />
+    <Content Include="Mudrik\Staff\SearchShowing_Action.aspx" />
+    <Content Include="Mudrik\Staff\SearchShowing_Action2.aspx" />
+    <Content Include="Mudrik\Staff\StaffMenu.aspx" />
     <Content Include="Mudrik\style\style.css" />
+    <Content Include="Mudrik\Users\BookFilm.aspx" />
+    <Content Include="Mudrik\Users\BookFilm2.aspx" />
+    <Content Include="Mudrik\Users\EditDetails_Customer.aspx" />
+    <Content Include="Mudrik\Users\EditDetails_Customer_Script.aspx" />
+    <Content Include="Mudrik\Users\SearchFilm.aspx" />
+    <Content Include="Mudrik\Users\SearchFilm_Action.aspx" />
+    <Content Include="Mudrik\Users\SearchFilm_Action2.aspx" />
+    <Content Include="Mudrik\Users\SearchShowing.aspx" />
+    <Content Include="Mudrik\Users\SearchShowing_Action.aspx" />
+    <Content Include="Mudrik\Users\SearchShowing_Action2.aspx" />
+    <Content Include="Mudrik\Users\UserMenu.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +169,426 @@
     <Compile Include="Clinton\ViewRoom.aspx.designer.cs">
       <DependentUpon>ViewRoom.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Mudrik\Admin\AddCustomer.aspx.cs">
+      <DependentUpon>AddCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\AddCustomer.aspx.designer.cs">
+      <DependentUpon>AddCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\AddCustomer2.aspx.cs">
+      <DependentUpon>AddCustomer2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\AddCustomer2.aspx.designer.cs">
+      <DependentUpon>AddCustomer2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\AddFilm.aspx.cs">
+      <DependentUpon>AddFilm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\AddFilm.aspx.designer.cs">
+      <DependentUpon>AddFilm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\AddFilm2.aspx.cs">
+      <DependentUpon>AddFilm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\AddFilm2.aspx.designer.cs">
+      <DependentUpon>AddFilm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\AddShowing.aspx.cs">
+      <DependentUpon>AddShowing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\AddShowing.aspx.designer.cs">
+      <DependentUpon>AddShowing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\AddShowing2.aspx.cs">
+      <DependentUpon>AddShowing2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\AddShowing2.aspx.designer.cs">
+      <DependentUpon>AddShowing2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\BookFilm.aspx.cs">
+      <DependentUpon>BookFilm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\BookFilm.aspx.designer.cs">
+      <DependentUpon>BookFilm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\BookFilm2.aspx.cs">
+      <DependentUpon>BookFilm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\BookFilm2.aspx.designer.cs">
+      <DependentUpon>BookFilm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\EditDetails_Admin.aspx.cs">
+      <DependentUpon>EditDetails_Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\EditDetails_Admin.aspx.designer.cs">
+      <DependentUpon>EditDetails_Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\EditDetails_Admin_Script.aspx.cs">
+      <DependentUpon>EditDetails_Admin_Script.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\EditDetails_Admin_Script.aspx.designer.cs">
+      <DependentUpon>EditDetails_Admin_Script.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\MainMenu.aspx.cs">
+      <DependentUpon>MainMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\MainMenu.aspx.designer.cs">
+      <DependentUpon>MainMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchBooking.aspx.cs">
+      <DependentUpon>SearchBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchBooking.aspx.designer.cs">
+      <DependentUpon>SearchBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchBooking_Action.aspx.cs">
+      <DependentUpon>SearchBooking_Action.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchBooking_Action.aspx.designer.cs">
+      <DependentUpon>SearchBooking_Action.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchBooking_Action2.aspx.cs">
+      <DependentUpon>SearchBooking_Action2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchBooking_Action2.aspx.designer.cs">
+      <DependentUpon>SearchBooking_Action2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchCustomer.aspx.cs">
+      <DependentUpon>SearchCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchCustomer.aspx.designer.cs">
+      <DependentUpon>SearchCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchCustomer_Action.aspx.cs">
+      <DependentUpon>SearchCustomer_Action.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchCustomer_Action.aspx.designer.cs">
+      <DependentUpon>SearchCustomer_Action.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchCustomer_Action2.aspx.cs">
+      <DependentUpon>SearchCustomer_Action2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchCustomer_Action2.aspx.designer.cs">
+      <DependentUpon>SearchCustomer_Action2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchFilm.aspx.cs">
+      <DependentUpon>SearchFilm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchFilm.aspx.designer.cs">
+      <DependentUpon>SearchFilm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchFilm_Action.aspx.cs">
+      <DependentUpon>SearchFilm_Action.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchFilm_Action.aspx.designer.cs">
+      <DependentUpon>SearchFilm_Action.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchFilm_Action2.aspx.cs">
+      <DependentUpon>SearchFilm_Action2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchFilm_Action2.aspx.designer.cs">
+      <DependentUpon>SearchFilm_Action2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchShowing.aspx.cs">
+      <DependentUpon>SearchShowing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchShowing.aspx.designer.cs">
+      <DependentUpon>SearchShowing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchShowing_Action.aspx.cs">
+      <DependentUpon>SearchShowing_Action.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchShowing_Action.aspx.designer.cs">
+      <DependentUpon>SearchShowing_Action.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchShowing_Action2.aspx.cs">
+      <DependentUpon>SearchShowing_Action2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchShowing_Action2.aspx.designer.cs">
+      <DependentUpon>SearchShowing_Action2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchStaff.aspx.cs">
+      <DependentUpon>SearchStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchStaff.aspx.designer.cs">
+      <DependentUpon>SearchStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchStaff_Action.aspx.cs">
+      <DependentUpon>SearchStaff_Action.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchStaff_Action.aspx.designer.cs">
+      <DependentUpon>SearchStaff_Action.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchStaff_Action2.aspx.cs">
+      <DependentUpon>SearchStaff_Action2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\SearchStaff_Action2.aspx.designer.cs">
+      <DependentUpon>SearchStaff_Action2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\AddCustomer.aspx.cs">
+      <DependentUpon>AddCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\AddCustomer.aspx.designer.cs">
+      <DependentUpon>AddCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\AddCustomer2.aspx.cs">
+      <DependentUpon>AddCustomer2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\AddCustomer2.aspx.designer.cs">
+      <DependentUpon>AddCustomer2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\AddFilm.aspx.cs">
+      <DependentUpon>AddFilm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\AddFilm.aspx.designer.cs">
+      <DependentUpon>AddFilm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\AddFilm2.aspx.cs">
+      <DependentUpon>AddFilm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\AddFilm2.aspx.designer.cs">
+      <DependentUpon>AddFilm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\AddShowing.aspx.cs">
+      <DependentUpon>AddShowing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\AddShowing.aspx.designer.cs">
+      <DependentUpon>AddShowing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\AddShowing2.aspx.cs">
+      <DependentUpon>AddShowing2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\AddShowing2.aspx.designer.cs">
+      <DependentUpon>AddShowing2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\BookFilm.aspx.cs">
+      <DependentUpon>BookFilm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\BookFilm.aspx.designer.cs">
+      <DependentUpon>BookFilm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\BookFilm2.aspx.cs">
+      <DependentUpon>BookFilm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\BookFilm2.aspx.designer.cs">
+      <DependentUpon>BookFilm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\EditDetails_Staff.aspx.cs">
+      <DependentUpon>EditDetails_Staff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\EditDetails_Staff.aspx.designer.cs">
+      <DependentUpon>EditDetails_Staff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\EditDetails_Staff_Script.aspx.cs">
+      <DependentUpon>EditDetails_Staff_Script.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\EditDetails_Staff_Script.aspx.designer.cs">
+      <DependentUpon>EditDetails_Staff_Script.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchBooking.aspx.cs">
+      <DependentUpon>SearchBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchBooking.aspx.designer.cs">
+      <DependentUpon>SearchBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchBooking_Action.aspx.cs">
+      <DependentUpon>SearchBooking_Action.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchBooking_Action.aspx.designer.cs">
+      <DependentUpon>SearchBooking_Action.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchBooking_Action2.aspx.cs">
+      <DependentUpon>SearchBooking_Action2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchBooking_Action2.aspx.designer.cs">
+      <DependentUpon>SearchBooking_Action2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchCustomer.aspx.cs">
+      <DependentUpon>SearchCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchCustomer.aspx.designer.cs">
+      <DependentUpon>SearchCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchCustomer_Action.aspx.cs">
+      <DependentUpon>SearchCustomer_Action.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchCustomer_Action.aspx.designer.cs">
+      <DependentUpon>SearchCustomer_Action.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchCustomer_Action2.aspx.cs">
+      <DependentUpon>SearchCustomer_Action2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchCustomer_Action2.aspx.designer.cs">
+      <DependentUpon>SearchCustomer_Action2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchFilm.aspx.cs">
+      <DependentUpon>SearchFilm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchFilm.aspx.designer.cs">
+      <DependentUpon>SearchFilm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchFilm_Action.aspx.cs">
+      <DependentUpon>SearchFilm_Action.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchFilm_Action.aspx.designer.cs">
+      <DependentUpon>SearchFilm_Action.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchFilm_Action2.aspx.cs">
+      <DependentUpon>SearchFilm_Action2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchFilm_Action2.aspx.designer.cs">
+      <DependentUpon>SearchFilm_Action2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchShowing.aspx.cs">
+      <DependentUpon>SearchShowing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchShowing.aspx.designer.cs">
+      <DependentUpon>SearchShowing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchShowing_Action.aspx.cs">
+      <DependentUpon>SearchShowing_Action.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchShowing_Action.aspx.designer.cs">
+      <DependentUpon>SearchShowing_Action.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchShowing_Action2.aspx.cs">
+      <DependentUpon>SearchShowing_Action2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\SearchShowing_Action2.aspx.designer.cs">
+      <DependentUpon>SearchShowing_Action2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\StaffMenu.aspx.cs">
+      <DependentUpon>StaffMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\StaffMenu.aspx.designer.cs">
+      <DependentUpon>StaffMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Users\BookFilm.aspx.cs">
+      <DependentUpon>BookFilm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Users\BookFilm.aspx.designer.cs">
+      <DependentUpon>BookFilm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Users\BookFilm2.aspx.cs">
+      <DependentUpon>BookFilm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Users\BookFilm2.aspx.designer.cs">
+      <DependentUpon>BookFilm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Users\EditDetails_Customer.aspx.cs">
+      <DependentUpon>EditDetails_Customer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Users\EditDetails_Customer.aspx.designer.cs">
+      <DependentUpon>EditDetails_Customer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Users\EditDetails_Customer_Script.aspx.cs">
+      <DependentUpon>EditDetails_Customer_Script.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Users\EditDetails_Customer_Script.aspx.designer.cs">
+      <DependentUpon>EditDetails_Customer_Script.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Users\SearchFilm.aspx.cs">
+      <DependentUpon>SearchFilm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Users\SearchFilm.aspx.designer.cs">
+      <DependentUpon>SearchFilm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Users\SearchFilm_Action.aspx.cs">
+      <DependentUpon>SearchFilm_Action.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Users\SearchFilm_Action.aspx.designer.cs">
+      <DependentUpon>SearchFilm_Action.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Users\SearchFilm_Action2.aspx.cs">
+      <DependentUpon>SearchFilm_Action2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Users\SearchFilm_Action2.aspx.designer.cs">
+      <DependentUpon>SearchFilm_Action2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Users\SearchShowing.aspx.cs">
+      <DependentUpon>SearchShowing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Users\SearchShowing.aspx.designer.cs">
+      <DependentUpon>SearchShowing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Users\SearchShowing_Action.aspx.cs">
+      <DependentUpon>SearchShowing_Action.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Users\SearchShowing_Action.aspx.designer.cs">
+      <DependentUpon>SearchShowing_Action.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Users\SearchShowing_Action2.aspx.cs">
+      <DependentUpon>SearchShowing_Action2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Users\SearchShowing_Action2.aspx.designer.cs">
+      <DependentUpon>SearchShowing_Action2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Users\UserMenu.aspx.cs">
+      <DependentUpon>UserMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Users\UserMenu.aspx.designer.cs">
+      <DependentUpon>UserMenu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -125,9 +605,6 @@
     <Folder Include="Clinton\admin\room\" />
     <Folder Include="Dylan\" />
     <Folder Include="Irbaaz\" />
-    <Folder Include="Mudrik\Admin\" />
-    <Folder Include="Mudrik\Staff\" />
-    <Folder Include="Mudrik\Users\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Class Library\Class Library.csproj">
