@@ -29,7 +29,7 @@
                  Int32 RecordCount;
 
                  //Connect to the database
-                 Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
+                 clsDataConnection DB = new clsDataConnection();
                  //Add parameters for login (USER ID) and password
                  DB.AddParameter("@User_id", UserLogin);
                  DB.AddParameter("@Password", UserPassword);

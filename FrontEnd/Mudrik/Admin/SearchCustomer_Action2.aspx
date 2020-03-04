@@ -66,7 +66,7 @@
         //get the value from the delete button
         string delete = Request.Form["btnDeleteCustomer"];
         //connect to the db
-        Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
+        clsDataConnection DB = new clsDataConnection();
         //check delete value
         if (delete != null)
         {

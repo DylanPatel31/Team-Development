@@ -37,7 +37,7 @@
     <!-- HEADER -->
 
 
-    <!-- form to search -->
+    <!-- form to sRearch -->
     <div class="one-col"><div class="center-text">
     <div class="title"><h2>Search Film</h2></div></div></div>
     <form id="form2" action="SearchFilm_Search.aspx">
@@ -64,7 +64,7 @@
             string reserve = Request["btnBookFilm"];
             if (search != null && reserve == null)
             {
-                //variables to store data about the book
+                //variables to store data about the film
                 string film_id = "";
                 string filmName = "";
                 string genre = "";
@@ -76,7 +76,7 @@
                 string releaseDate = "";
                 Int32 Index = 0;
                 //connection to the database
-                Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
+                clsDataConnection DB = new clsDataConnection();
                 //add parameter
                 DB.AddParameter("@search", search);
                 //execute procedure displaying only the searched film

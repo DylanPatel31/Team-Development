@@ -38,7 +38,7 @@
 
     
 
-    <!-- form to search -->
+    <!-- form to searRch -->
     <div class="one-col"><div class="center-text">
     <div class="title"><h2>Search Film</h2></div></div></div>
     <form id="form2" action="SearchFilm_Search.aspx">
@@ -79,7 +79,7 @@
        string releaseDate = "";
        Int32 Index = 0;
        //connection to the database
-       Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
+      clsDataConnection DB = new clsDataConnection();
        //execute procedure displaying all book copies
        DB.Execute("sproc_tblFilm_AllFilms");
        //start of table in which we display the results

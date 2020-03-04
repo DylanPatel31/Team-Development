@@ -86,7 +86,7 @@
 
 
             //connect to the database
-            Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
+            clsDataConnection DB = new clsDataConnection();
             //send the address1 to the stored procedure
             DB.AddParameter("@query_user_id", query_user_id);
             //send the address2 to the stored procedure
@@ -110,7 +110,7 @@
 
                 }
             //reset the connection
-            DB = new Class_Library.clsDataConnection();
+            DB = new clsDataConnection();
             //send the primary key
             DB.AddParameter("@query_user_id", query_user_id);
             //execute the stored procedure
