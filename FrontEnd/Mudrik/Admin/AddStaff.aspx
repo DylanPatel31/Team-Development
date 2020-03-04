@@ -1,23 +1,25 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AddCustomer.aspx.cs" Inherits="FrontEnd.Mudrik.Staff.AddCustomer" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AddStaff.aspx.cs" Inherits="FrontEnd.Mudrik.Admin.AddStaff" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
    <meta charset="utf-8"/>
-    <title>Staff Menu</title>
+    <title>Admin Menu</title>
     <link rel="stylesheet" href="../style/style.css"/>
 
 
     <%
-        string loggedUserIDStaff= (string)(Session["loggedUserIDStaff"]);
-        if (loggedUserIDStaff == null)
+
+        string loggedUserIDManager= (string)(Session["loggedUserIDManager"]);
+        if (loggedUserIDManager == null)
         {
             Response.Redirect("../LoginPage.html");
         }
         else {
 
         }
+
      %>
 </head>
 <body>
@@ -29,7 +31,7 @@
             </div>
             <div class="main-menu">
                 <ul>
-                    <li><a href="StaffMenu.aspx">Menu</a></li>
+                    <li><a href="MainMenu.aspx">Menu</a></li>
                     <li><a href="../index.html">Logout</a></li>
                 </ul>
             </div>
@@ -39,12 +41,12 @@
     <!-- Withdraw Book form-->
     <section class="customer_details">
         <div class="container">
-            <h2 class="center-text">Add New Customer</h2>
+            <h2 class="center-text">Add New Staff</h2>
             <div class="col-one">
                 <div class="center-text">
-                    <form method="post" action="AddCustomer2.aspx" id="form1">
+                    <form method="post" action="AddStaff2.aspx" id="form1">
                         <label for="Booking ID">
-                            <strong>Customer ID: </strong>
+                            <strong>Staff ID: </strong>
                         </label>
                         <input type="text" name="txtuser_id" id="user_id" placeholder="Enter Customer ID" />
 
@@ -86,7 +88,7 @@
                         <label for="User Type ID">
                             <strong> User Type ID. </strong>
                         </label>
-                        <input type="text" name="txtfk1_userType_id" id="fk1_userType_id" value="U1" placeholder=""/><br />
+                        <input type="text" name="txtfk1_userType_id" id="fk1_userType_id" value="U2" placeholder=""/><br />
                         <button type="submit" class="button button-dark" id="Book" value="Book">Add Customer</button><br />
                     </form>
                 </div>

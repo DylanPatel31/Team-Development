@@ -88,7 +88,7 @@
                         <label for="User Type ID">
                             <strong> User Type ID. </strong>
                         </label>
-                        <input type="text" name="txtfk1_userType_id" id="fk1_userType_id" placeholder="Enter 'U2' Here."/><br />
+                        <input type="text" name="txtfk1_userType_id" id="fk1_userType_id" value="U1" placeholder=""/><br />
                         <button type="submit" class="button button-dark" id="Book" value="Book">Add Customer</button><br />
                     </form>
                 </div>

@@ -13,7 +13,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>Search Film</title>
-    <link rel="stylesheet" href="../style/style.css"/>
+    <link rel="stylesheet" href="style/style.css">
    
 
 
@@ -37,7 +37,7 @@
     <!-- HEADER -->
 
 
-    <!-- form to sRearch -->
+    <!-- form to search -->
     <div class="one-col"><div class="center-text">
     <div class="title"><h2>Search Film</h2></div></div></div>
     <form id="form2" action="SearchFilm_Search.aspx">

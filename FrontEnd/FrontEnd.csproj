@@ -78,6 +78,8 @@
     <Content Include="Mudrik\Admin\AddFilm2.aspx" />
     <Content Include="Mudrik\Admin\AddShowing.aspx" />
     <Content Include="Mudrik\Admin\AddShowing2.aspx" />
+    <Content Include="Mudrik\Admin\AddStaff.aspx" />
+    <Content Include="Mudrik\Admin\AddStaff2.aspx" />
     <Content Include="Mudrik\Admin\BookFilm.aspx" />
     <Content Include="Mudrik\Admin\BookFilm2.aspx" />
     <Content Include="Mudrik\Admin\EditDetails_Admin.aspx" />
@@ -162,6 +164,7 @@
     </Compile>
     <Compile Include="Clinton\EditRoom.aspx.cs">
       <DependentUpon>EditRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Clinton\EditRoom.aspx.designer.cs">
       <DependentUpon>EditRoom.aspx</DependentUpon>
@@ -219,6 +222,20 @@
     </Compile>
     <Compile Include="Mudrik\Admin\AddShowing2.aspx.designer.cs">
       <DependentUpon>AddShowing2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\AddStaff.aspx.cs">
+      <DependentUpon>AddStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\AddStaff.aspx.designer.cs">
+      <DependentUpon>AddStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\AddStaff2.aspx.cs">
+      <DependentUpon>AddStaff2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\AddStaff2.aspx.designer.cs">
+      <DependentUpon>AddStaff2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Mudrik\Admin\BookFilm.aspx.cs">
       <DependentUpon>BookFilm.aspx</DependentUpon>
@@ -368,6 +385,7 @@
     </Compile>
     <Compile Include="Mudrik\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Mudrik\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
@@ -380,12 +398,14 @@
     </Compile>
     <Compile Include="Mudrik\SearchFilm.aspx.cs">
       <DependentUpon>SearchFilm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Mudrik\SearchFilm.aspx.designer.cs">
       <DependentUpon>SearchFilm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Mudrik\SearchFilm_Search.aspx.cs">
       <DependentUpon>SearchFilm_Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Mudrik\SearchFilm_Search.aspx.designer.cs">
       <DependentUpon>SearchFilm_Search.aspx</DependentUpon>
