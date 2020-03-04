@@ -87,7 +87,7 @@
             string releaseDate = "";
             Int32 Index = 0;
             //connection to the database
-            Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
+            clsDataConnection DB = new clsDataConnection();
             //add parameter
             DB.AddParameter("@search", search);
             //execute procedure displaying all book copies
@@ -155,7 +155,7 @@
         else if(search == null && delete != null)
         {
             //reset the db connection
-            Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
+            clsDataConnection DB = new clsDataConnection();
             //send the isbn number to the delete procedue
             DB.AddParameter("@delete", delete);
             //execute procedure deleting the book and all associated copies

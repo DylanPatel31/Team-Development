@@ -46,7 +46,7 @@
             //get the copy No from the form
             string startTime = Request.Form["txtstartTime"];
             //connect to the database
-            Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
+            clsDataConnection DB = new clsDataConnection();
             //add parameter to the sproc
             //send the data to the store procedure
             DB.AddParameter("@filmName", filmName);

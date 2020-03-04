@@ -50,7 +50,7 @@
             //get the copy No from the form
             string fk1_userType_id = Request.Form["txtfk1_userType_id"];
             //connect to the database
-            Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
+            clsDataConnection DB = new clsDataConnection();
             //add parameter to the sproc
             //send the data to the store procedure
             DB.AddParameter("@user_id", user_id);

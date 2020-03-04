@@ -66,7 +66,7 @@
         //get the value from the delete button
         string BookFilm = Request.Form["btnBookFilm"];
         //connect to the db
-        Class_Library.clsDataConnection DB = new Class_Library.clsDataConnection();
+      clsDataConnection DB = new clsDataConnection();
         //check delete value
         if (BookFilm != null)
         {
