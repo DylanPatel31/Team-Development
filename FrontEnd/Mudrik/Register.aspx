@@ -29,7 +29,7 @@
         </div>
     </header>>
     <!-- HEADER -->
-    <!-- Withdraw Book forrm-->
+    <!-- Register Form-->
     <section class="customer_details">
         <div class="container">
             <h2 class="center-text">Register New  Account</h2>

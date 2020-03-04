@@ -65,7 +65,7 @@
     <form id="form1" runat="server" action="SearchBooking_Action2.aspx">
        
    <%      
-        //variables to store data about the book
+        //variables to store data about the film
             string booking_id = "";
             string firstName = "";
             string fk1_user_id = "";
@@ -75,7 +75,7 @@
             Int32 Index = 0;
             //connection to the database
             clsDataConnection DB = new clsDataConnection();
-            //execute procedure displaying all book copies
+            //execute procedure displaying all film
             DB.Execute("sproc_tblBooking_AllBookings");
             //start of table in which we display the results
             Response.Write("<table border=1 cellpadding=4><tr>");

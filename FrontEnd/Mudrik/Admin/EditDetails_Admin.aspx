@@ -54,13 +54,13 @@
                     <%
                         //Declare primary key
                         string user_id = loggedUserIDManager;
-                        //declare bor first name
+                        //declare variable
                         string firstName = "";
-                        //declare bor last name 
+                        //declare variable
                         string surname = "";
-                        //Declare a variable to store the address1
+                        //declare variable
                         string email = "";
-                        //Declare a variable to store the address3
+                        //declare variable
                         string dateOfBirth = "";
                        
 

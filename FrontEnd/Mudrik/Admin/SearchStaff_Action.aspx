@@ -68,7 +68,7 @@
         string delete = Request["btnDeleteStaff"];
         if (search != null && delete == null)
         {
-            //variables to store data about the book
+            //variables to store data about the film
             string user_id = "";
             string firstName = "";
             string surname = "";
@@ -81,7 +81,7 @@
             clsDataConnection DB = new clsDataConnection();
             //add parameter
             DB.AddParameter("@search", search);
-            //execute procedure displaying all book copies
+            //execute procedure displaying all films
             DB.Execute("[sproc_tblUser_FilterByStaffName]");
             //start of table in which we display the results
             Response.Write("<table border=1 cellpadding=4><tr>");
@@ -142,9 +142,9 @@
         {
             //reset the db connection
             clsDataConnection DB = new clsDataConnection();
-            //send the isbn number to the delete procedue
+            //send the primary key to the delete procedue
             DB.AddParameter("@delete", delete);
-            //execute procedure deleting the book and all associated copies
+            //execute the delete stored procedure
             DB.Execute("sproc_tblUser_Delete");
             Response.Redirect("SearchStaff.aspx");
         }

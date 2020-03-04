@@ -30,17 +30,17 @@
     <div>
         <%
 
-            //get the borrower id from the the forrm
+            //get attribute value from the the form
             string user_id = Request.Form["txtuser_id"];
-            //get the borrower id from the the form
+            //get attribute value from the the form
             string firstName = Request.Form["txtfirstName"];
-            //get the borrower id from the the form
+            //get attribute value from the the form
             string surname = Request.Form["txtsurname"];
-            //get the copy No from the form
+            //get attribute value from the the form
             string email = Request.Form["txtemail"];
-            //get the copy No from the form
+            //get attribute value from the the form
             string password = Request.Form["txtpassword"];
-            //get the copy No from the form
+            //get attribute value from the the form
             string fk1_userType_id = Request.Form["txtfk1_userType_id"];
             //connect to the database
            clsDataConnection DB = new clsDataConnection();

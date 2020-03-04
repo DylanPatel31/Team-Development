@@ -37,13 +37,13 @@
     <div>
         <%
 
-            //get the borrower id from the the form
+            //get the attribute value from the the form
             string filmName = Request.Form["txtfilmName"];
-            //get the borrower id from the the form
+            //get the attribute value from the the form
             string theaterNo = Request.Form["txttheaterNo"];
-            //get the copy No from the form
+            //get the attribute value from the the form
             string theaterType = Request.Form["txttheaterType"];
-            //get the copy No from the form
+            //get the attribute value from the the form
             string startTime = Request.Form["txtstartTime"];
             //connect to the database
             clsDataConnection DB = new clsDataConnection();

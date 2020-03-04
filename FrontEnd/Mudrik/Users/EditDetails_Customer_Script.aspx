@@ -60,42 +60,42 @@
         <%
             //get the primary key
             string query_user_id = Request.Form["txuser_id"];
-            //get the Address
+            //get the 
             string query_firstName = Request.Form["txtfirstName"];
-            //get the Address2
+            //get the 
             string query_surname = Request.Form["txtsurname"];
-            //get the Address3
+            //get the 
             string query_email = Request.Form["txtemail"];
-            //get the Telephone
+            //get the 
             string query_password = Request.Form["txtPassword"];
-            //get the Email
+            //get the 
             string query_dateOfBirth = Request.Form["txtdateOfBirth"];
 
 
 
             //Declare primary key
             string user_id = "";
-            //declare bor first name
+            //declare variable
             string firstName = "";
-            //declare bor last name 
+            //declare variable
             string surname = "";
-            //Declare a variable to store the address1
+            //declare variable
             string email = "";
-            //Declare a variable to store the address3
+            //declare variable
             string dateOfBirth = "";
 
 
             //connect to the database
             clsDataConnection DB = new clsDataConnection();
-            //send the address1 to the stored procedure
+            //send to the stored procedure
             DB.AddParameter("@query_user_id", query_user_id);
-            //send the address2 to the stored procedure
+            //send to the stored procedure
             DB.AddParameter("@query_firstName", query_firstName);
-            //send the address3 to the stored procedure
+            //send to the stored procedure
             DB.AddParameter("@query_surname", query_surname);
-            //send the tel to the stored procedure
+            //send to the stored procedure
             DB.AddParameter("@query_email", query_email);
-            //send the borrower id to the stored procedure
+            //send to the stored procedure
             DB.AddParameter("@query_dateOfBirth", query_dateOfBirth);
             if (query_password != "")
             {
@@ -119,14 +119,14 @@
             if (DB.Count == 1)
             {
 
-                //get address1
+                //get
                 user_id = Convert.ToString(DB.DataTable.Rows[0]["user_id"]);
-                //get bor name
+                //get 
                 firstName = Convert.ToString(DB.DataTable.Rows[0]["firstName"]);
                 surname = Convert.ToString(DB.DataTable.Rows[0]["surname"]);
-                //get address1
+                //get 
                 email = Convert.ToString(DB.DataTable.Rows[0]["email"]);
-                //get address3
+                //get 
                 dateOfBirth = Convert.ToString(DB.DataTable.Rows[0]["dateOfBirth"]);
 
             }

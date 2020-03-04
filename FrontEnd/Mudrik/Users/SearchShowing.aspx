@@ -38,7 +38,7 @@
         </div>
     </header>>
     <!-- HEADER -->
-    <!-- form to search -->
+    <!-- Form to search -->
     <div class="one-col"><div class="center-text">
     <div class="title"><h2>Search Showing</h2></div></div></div>
     <form id="form2" action="SearchShowing_Action.aspx">
@@ -65,7 +65,7 @@
     <form id="form1" runat="server" action="SearchShowing_Action2.aspx">
        
    <%      
-        //variables to store data about the book
+        //variables to store data about the film
             string screening_id = "";
             string filmName = "";
             string theaterNo = "";
@@ -75,7 +75,7 @@
             Int32 Index = 0;
             //connection to the database
            clsDataConnection DB = new clsDataConnection();
-            //execute procedure displaying all book copies
+            //execute procedure displaying all films
             DB.Execute("sproc_tblScreening_AllShowings");
             //start of table in which we display the results
             Response.Write("<table border=1 cellpadding=4><tr>");

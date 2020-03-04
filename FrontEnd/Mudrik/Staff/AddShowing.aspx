@@ -38,7 +38,7 @@
         </div>
     </header>>
     <!-- HEADER -->
-    <!-- Withdraw Book form-->
+    <!-- Form-->
     <section class="showing_details">
         <div class="container">
             <h2 class="center-text">Add New Showing</h2>

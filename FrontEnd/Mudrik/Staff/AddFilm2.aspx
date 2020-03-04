@@ -37,19 +37,19 @@
     <div>
         <%
 
-            //get the borrower id from the the form
+            //get the attribute value from the the form
             string filmName = Request.Form["txtfilmName"];
-            //get the borrower id from the the form
+            //get the attribute value from the the form
             string genre = Request.Form["txtgenre"];
-            //get the copy No from the form
+            //get the attribute value from the the form
             string duration = Request.Form["txtduration"];
-            //get the copy No from the form
+            //get the attribute value from the the form
             string ageRated = Request.Form["txtageRated"];
-            //get the copy No from the form
+            //get the attribute value from the the form
             string director = Request.Form["txtdirector"];
-            //get the copy No from the form
+            //get the attribute value from the the form
             string description = Request.Form["txtdescription"];
-            //get the copy No from the form
+            //get the attribute value from the the form
             string fk1_filmCast_id = Request.Form["txtfk1_filmCast_id"];
             //connect to the database
             clsDataConnection DB = new clsDataConnection();

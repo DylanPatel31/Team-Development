@@ -39,7 +39,7 @@
         </div>
     </header>>
     <!-- HEADER -->
-    <!-- form to search -->
+    <!-- Form to search -->
     <div class="one-col"><div class="center-text">
     <div class="title"><h2>Search Showing</h2></div></div></div>
     <form id="form1" action="SearchShowing_Action.aspx">
@@ -68,7 +68,7 @@
         string BookFilm = Request["btnBookFilm"];
         if (search != null && BookFilm == null)
         {
-            //variables to store data about the book
+            //variables to store data about the film
             string screening_id = "";
             string filmName = "";
             string theaterNo = "";
@@ -80,7 +80,7 @@
            clsDataConnection DB = new clsDataConnection();
             //add parameter
             DB.AddParameter("@search", search);
-            //execute procedure displaying all book copies
+            //execute procedure displaying all films
             DB.Execute("[sproc_tblScreening_FilterByFilmName]");
             //start of table in which we display the results
             Response.Write("<table border=1 cellpadding=4><tr>");
@@ -135,7 +135,7 @@
         {
             //reset the db connection
            clsDataConnection DB = new clsDataConnection();
-            //send the isbn number to the delete procedue
+            //send the primary key to the delete procedue
             DB.AddParameter("@BookFilm", BookFilm);
 
             Response.Redirect("BookFilm.aspx");

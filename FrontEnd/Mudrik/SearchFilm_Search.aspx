@@ -99,44 +99,43 @@
                 {
                     //start the row of output table
                     Response.Write("<tr>");
-                    //get the menu code
+                    //get the
                     film_id = Convert.ToString(DB.DataTable.Rows[Index]["film_id"]);
-                    //get the name
+                    //get the 
                     filmName = Convert.ToString(DB.DataTable.Rows[Index]["filmName"]);
-                    //get the author
+                    //get the 
                     genre = Convert.ToString(DB.DataTable.Rows[Index]["genre"]);
-                    //get the publisher
+                    //get the 
                     duration = Convert.ToString(DB.DataTable.Rows[Index]["duration"]);
-                    //get the shelf no
+                    //get the 
                     ageRated = Convert.ToString(DB.DataTable.Rows[Index]["ageRated"]);
-                    //get the pub yr
+                    //get the 
                     director = Convert.ToString(DB.DataTable.Rows[Index]["director"]);
-                    //get the edition no
+                    //get the  
                     description = Convert.ToString(DB.DataTable.Rows[Index]["description"]);
-                    //get the condition
+                    //get the 
                     fk1_filmCast_id = Convert.ToString(DB.DataTable.Rows[Index]["fk1_filmCast_id"]);
-                    //get the status
+                    //get the 
                     releaseDate = Convert.ToString(DB.DataTable.Rows[Index]["releaseDate"]);
-                    //write the ISBN column
+                    //write column
                     Response.Write("<td><b>" + film_id + "</b></td>");
-                    //write the title column
+                    //write column
                     Response.Write("<td><b>" + filmName + "</b></td>");
-                    //write the author column
+                    //write column
                     Response.Write("<td><b>" + genre + "</b></td>");
-                    //write the publisher column
+                    //write column
                     Response.Write("<td><b>" + duration + "</b></td>");
-                    //write the author shelf no
+                    //write column
                     Response.Write("<td><b>" + ageRated + "</b></td>");
-                    //write the pub yr
+                    //write column
                     Response.Write("<td><b>" + director + "</b></td>");
-                    //write the edition no column
+                    //write column
                     Response.Write("<td><b>" + description + "</b></td>");
-                    //write the pub yr
+                    //write column
                     Response.Write("<td><b>" + fk1_filmCast_id + "</b></td>");
-                    //write the edition no column
+                    //write column
                     Response.Write("<td><b>" + releaseDate + "</b></td>");
                     //Output the action button
-
                    Response.Write("<td colspan=2><a class='adnotation' href='#'>" + "<button id='" + film_id + " 'type='submit' name='btnBookFilm' href='LoginPage.html' name='BookFilm'value=' " + film_id + "'>Book Film</button><span>Please, login to book this Film.</span></a></td>");
 
                     Response.Write("</td>");

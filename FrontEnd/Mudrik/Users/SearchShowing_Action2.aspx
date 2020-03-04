@@ -70,7 +70,7 @@
         //check delete value
         if (BookFilm != null)
         {
-            //send the isbn number to the delete procedue
+            //send the primary key to the delete procedue
             DB.AddParameter("@BookFilm", BookFilm);
             Response.Redirect("BookFilm.aspx");
         }

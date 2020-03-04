@@ -36,7 +36,7 @@
         </div>
     </header>>
     <!-- HEADER -->
-    <!-- Withdraw Book form-->
+    <!-- Form-->
     <section class="customer_details">
         <div class="container">
             <h2 class="center-text">Add New Customer</h2>

@@ -81,7 +81,7 @@
         {
             //send the isbn number to the delete procedue
             DB.AddParameter("@delete", delete);
-            //execute procedure deleting the book and all associated copies
+            //execute delete stored procedure
             DB.Execute("sproc_tblFilm_Delete");
             Response.Redirect("SearchFilm.aspx");
         }

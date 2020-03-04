@@ -38,7 +38,7 @@
         </div>
     </header>>
     <!-- HEADER -->
-    <!-- Withdraw Book form-->
+    <!-- Form-->
     <section class="film_details">
         <div class="container">
             <h2 class="center-text">Book Film For Customer</h2>

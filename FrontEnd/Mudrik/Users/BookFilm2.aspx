@@ -38,17 +38,17 @@
     <div>
         <%
 
-            //get the borrower id from the the form
+            //get attribue value from the form
             string booking_id = Request.Form["txtbooking_id"];
-            //get the borrower id from the the form
+            //get attribue value from the form
             string firstName = Request.Form["txtfirstName"];
-            //get the borrower id from the the form
+            //get attribue value from the form
             string fk1_user_id = Request.Form["txtfk1_user_id"];
-            //get the copy No from the form
+            //get attribue value from the form
             string fk2_seat_id = Request.Form["txtfk2_seat_id"];
-            //get the copy No from the form
+            //get attribue value from the form
             string fk3_screening_id = Request.Form["txtfk3_screening_id"];
-            //get the copy No from the form
+            //get attribue value from the form
             string price = Request.Form["txtprice"];
             //connect to the database
             clsDataConnection DB = new clsDataConnection();

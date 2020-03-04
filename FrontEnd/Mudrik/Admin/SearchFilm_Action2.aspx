@@ -79,9 +79,9 @@
         //check delete value
         if (delete != null)
         {
-            //send the isbn number to the delete procedue
+            //send the primary key to the delete procedue
             DB.AddParameter("@delete", delete);
-            //execute procedure deleting the book and all associated copies
+            //execute the delete stored procedure
             DB.Execute("sproc_tblFilm_Delete");
             Response.Redirect("SearchFilm.aspx");
         }
