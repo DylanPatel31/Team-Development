@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>SHEIKHZ LIBRARY</title>
+    <title>LOGIN</title>
     <link rel="stylesheet" href="Style Sheikhz Library/StyleSheet.css">
 
 </head>
@@ -13,17 +13,16 @@
     <header class="top">
         <div class="container">
             <div class="logo">
-                <img src="imgfolder/SHEIKHZ LIBRARY 1.png" alt="SHEIKHZ LIBRARY1" height="80" width="150" />
+                <img src="../imgfolder/SHEIKHZ LIBRARY 1.png" alt="SHEIKHZ LIBRARY1" height="80" width="150" />
                 <a href="HomePage.html">SHEIKHZ LIBRARY</a>
             </div>
             <div class="main-menu">
                 <ul>
                     <li><a href="HomePage.html">Home</a></li>
-                    <li><a href="LoginPage.html">Login</a></li>
-                    <li><a href="DefaultSearchBookByGuest.aspx">Search Book</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                    <li><a href="DefaultSearchBookByGuest.aspx">Search Books</a></li>
                     <li><a href="Our partnership.html">Our Partnership</a></li>
                     <li><a href="AboutUs.html">About US</a></li>
-
                 </ul>
             </div>
         </div>
@@ -32,15 +31,23 @@
 
     </header>
     <!-- HEADER -->
-    <!-- Background-Colour changer -->
-    <article></article>
+    <!-- LOGIN -->
+    <section class="Suspended">
+        <div class="container">
+            <h2 class="center-text"> </h2>
+            <div class="col-one">
+                <div class="center-text">
+                    <form method="post" action="Help.aspx">
+                        <label for="Questions">
+                            <strong>You Have Entered A Wrong Username or Password, Please Try Again </strong><br />
+                            <button type="button" class="button button-dark" id="Back" onclick="goBack()">Back</button>
+                        </label>
+                    </form>
+                </div>
+            </div>
 
-    <section class="banner"></section>
-
-
-    <section3 class="SheikhzLibrary-container">
-        <img src="imgfolder/dmuLibrary3.jpg" alt="dmu" height="300" width="450" />
-    </section3>
+        </div>
+    </section>
 
     <section4>
         <div id="contactsd">
@@ -78,7 +85,12 @@
 
     </section4>
 
-    <!-- CONTACT -->
+    <!-- Map -->
+    <section2>
+        <div class="col-half" id="contact-right">
+
+        </div>
+    </section2>
     <!-- Map -->
     <section2 class="GoogleMap-container">
         <div>
@@ -90,17 +102,9 @@
         </div>
     </section2>
     <!-- Map -->
-    <section2>
-
-    </section2>
-    <!-- Map -->
+    <!-- LOGIN -->
     <!-- FOOTER -->
-    <footer class="site-footer">
-        <div class="container">
-
-
-        </div>
-    </footer>
+    <footer class="site-footer"></footer>
     <!-- FOOTER -->
 </body>
 </html>
