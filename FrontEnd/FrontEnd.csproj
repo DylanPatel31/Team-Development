@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ahmed\Borrower\BorrowerFines.aspx" />
+    <Content Include="Ahmed\HomePage.html" />
     <Content Include="Ahmed\imgfolder\Ahmed1.jpg" />
     <Content Include="Ahmed\imgfolder\Ahmed2.jpg" />
     <Content Include="Ahmed\imgfolder\Ahmed3.jpg" />
@@ -78,6 +80,11 @@
     <Content Include="Ahmed\imgfolder\dmuLibrary3.jpg" />
     <Content Include="Ahmed\imgfolder\ImageBook1.JPEG" />
     <Content Include="Ahmed\imgfolder\SHEIKHZ LIBRARY 1.png" />
+    <Content Include="Ahmed\LibraryManager\AddBook.aspx" />
+    <Content Include="Ahmed\LibraryManager\LibraryManagerMainMenu.aspx" />
+    <Content Include="Ahmed\LibraryStaff\AddBook.aspx" />
+    <Content Include="Ahmed\LoginPage.html" />
+    <Content Include="Ahmed\login_redirect.aspx" />
     <Content Include="Ahmed\Style Sheikhz Library\StyleSheet.css" />
     <Content Include="Clinton\AddRoom.aspx" />
     <Content Include="Clinton\EditRoom.aspx" />
@@ -168,6 +175,34 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ahmed\Borrower\BorrowerFines.aspx.cs">
+      <DependentUpon>BorrowerFines.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\BorrowerFines.aspx.designer.cs">
+      <DependentUpon>BorrowerFines.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\AddBook.aspx.cs">
+      <DependentUpon>AddBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\AddBook.aspx.designer.cs">
+      <DependentUpon>AddBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\AddBook.aspx.cs">
+      <DependentUpon>AddBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\AddBook.aspx.designer.cs">
+      <DependentUpon>AddBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\login_redirect.aspx.cs">
+      <DependentUpon>login_redirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\login_redirect.aspx.designer.cs">
+      <DependentUpon>login_redirect.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Clinton\AddRoom.aspx.cs">
       <DependentUpon>AddRoom.aspx</DependentUpon>
     </Compile>
@@ -672,9 +707,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Ahmed\Borrower\" />
-    <Folder Include="Ahmed\LibraryManager\" />
-    <Folder Include="Ahmed\LibraryStaff\" />
     <Folder Include="Clinton\admin\room\" />
     <Folder Include="Dylan\" />
     <Folder Include="Irbaaz\" />
