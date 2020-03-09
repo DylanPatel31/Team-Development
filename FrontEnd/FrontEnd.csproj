@@ -67,6 +67,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ahmed\imgfolder\Ahmed1.jpg" />
+    <Content Include="Ahmed\imgfolder\Ahmed2.jpg" />
+    <Content Include="Ahmed\imgfolder\Ahmed3.jpg" />
+    <Content Include="Ahmed\imgfolder\Ahmed4.jpg" />
+    <Content Include="Ahmed\imgfolder\Book1.JPEG" />
+    <Content Include="Ahmed\imgfolder\DMU.jpg" />
+    <Content Include="Ahmed\imgfolder\dmuLibrary1.jpg" />
+    <Content Include="Ahmed\imgfolder\dmuLibrary2.jpg" />
+    <Content Include="Ahmed\imgfolder\dmuLibrary3.jpg" />
+    <Content Include="Ahmed\imgfolder\ImageBook1.JPEG" />
+    <Content Include="Ahmed\imgfolder\SHEIKHZ LIBRARY 1.png" />
     <Content Include="Ahmed\Style Sheikhz Library\StyleSheet.css" />
     <Content Include="Clinton\AddRoom.aspx" />
     <Content Include="Clinton\EditRoom.aspx" />
@@ -662,7 +673,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Ahmed\Borrower\" />
-    <Folder Include="Ahmed\imgfolder\" />
     <Folder Include="Ahmed\LibraryManager\" />
     <Folder Include="Ahmed\LibraryStaff\" />
     <Folder Include="Clinton\admin\room\" />
