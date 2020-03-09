@@ -36,7 +36,7 @@
     void DisplayBooks(Int32 ISBN)
     {
         //create an instance of the phone class
-        clsBookCollection ISBNS = new clsBookCollection();
+        Class_Library.clsBookCollection ISBNS = new Class_Library.clsBookCollection();
         //find the record we want to display
         ISBNS.ThisBook.Find(ISBN);
         //display the house no
@@ -55,7 +55,7 @@
     void Add()
     {
         //create an instance of the OrderCollection class
-        clsBookCollection ISBNS = new clsBookCollection();
+         Class_Library.clsBookCollection ISBNS = new  Class_Library.clsBookCollection();
         //validate the data on the web form
         String Error = ISBNS.ThisBook.Valid(TextBoxTitle.Text, TextBoxAuthor.Text, TextBoxPublisher.Text, TextBoxPublishedYear.Text, TextBoxGenreID.Text, TextBoxEditionNo.Text, TextBoxShelfNo.Text );
         //if the data is OK then add it to the object
@@ -85,7 +85,7 @@
     void Update()
     {
         //create an instance of the OrderCollection class
-        clsBookCollection ISBNS = new clsBookCollection();
+         Class_Library.clsBookCollection ISBNS = new  Class_Library.clsBookCollection();
         //validate the data on the web form
         String Error = ISBNS.ThisBook.Valid(TextBoxTitle.Text, TextBoxAuthor.Text, TextBoxPublisher.Text, TextBoxPublishedYear.Text, TextBoxGenreID.Text, TextBoxEditionNo.Text, TextBoxShelfNo.Text);
         //if the data is OK then add it to the object

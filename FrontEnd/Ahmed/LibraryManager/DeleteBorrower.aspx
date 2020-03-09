@@ -34,7 +34,7 @@
         //function to delete the selected record
 
         //create a a new instance of the collection class
-        clsBorrowerCollection Borrowers = new clsBorrowerCollection();
+         Class_Library.clsBorrowerCollection Borrowers = new  Class_Library.clsBorrowerCollection();
         //find the record to delete 
         Borrowers.ThisBorrower.Find(BorrowerID);
         //display the PhoneID
@@ -44,7 +44,7 @@
     protected void btnDelete_Click(object sender, EventArgs e)
     {
         //create an instance of the class clsPhone called MyPhones
-        clsBorrowerCollection MyBorrowers = new clsBorrowerCollection();
+         Class_Library.clsBorrowerCollection MyBorrowers = new  Class_Library.clsBorrowerCollection();
         //declare a variable to store the PhoneID to delete
 
         //declare a boolean variable to record success of the delete operation

@@ -36,7 +36,7 @@
     void DisplayBorrowers(Int32 BorrowerID)
     {
         //create an instance of the phone class
-        clsBorrowerCollection ISBNS = new clsBorrowerCollection();
+         Class_Library.clsBorrowerCollection ISBNS = new  Class_Library.clsBorrowerCollection();
         //find the record we want to display
         ISBNS.ThisBorrower.Find(BorrowerID);
         //display the house no
@@ -59,7 +59,7 @@
     void Add()
     {
         //create an instance of the OrderCollection class
-        clsBorrowerCollection ISBNS = new clsBorrowerCollection();
+         Class_Library.clsBorrowerCollection ISBNS = new  Class_Library.clsBorrowerCollection();
         //validate the data on the web form
         String Error = ISBNS.ThisBorrower.Valid(TextBoxBorrowerTypeID.Text, TextBoxFirstName.Text, TextBoxLastName.Text, TextBoxEmail.Text, TextBoxTelephoneNo.Text, TextBoxAddress1.Text, TextBoxAddress2.Text, TextBoxCity.Text, TextBoxPostCode.Text, TextBoxBorrowerStatus.Text, TextBoxBorrowerRecords.Text,  TextBoxBorrowerPassword.Text);
         //if the data is OK then add it to the object
@@ -94,7 +94,7 @@
     void Update()
     {
         //create an instance of the OrderCollection class
-        clsBorrowerCollection ISBNS = new clsBorrowerCollection();
+         Class_Library.clsBorrowerCollection ISBNS = new  Class_Library.clsBorrowerCollection();
         //validate the data on the web form
         String Error = ISBNS.ThisBorrower.Valid(TextBoxBorrowerTypeID.Text, TextBoxFirstName.Text, TextBoxLastName.Text, TextBoxEmail.Text, TextBoxTelephoneNo.Text, TextBoxAddress1.Text, TextBoxAddress2.Text, TextBoxCity.Text, TextBoxPostCode.Text, TextBoxBorrowerStatus.Text, TextBoxBorrowerRecords.Text,  TextBoxBorrowerPassword.Text);
         //if the data is OK then add it to the object

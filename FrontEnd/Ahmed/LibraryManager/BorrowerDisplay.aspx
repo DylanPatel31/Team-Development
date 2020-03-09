@@ -30,7 +30,7 @@
         string BorrowerStatus;//var to store the Device Name
 
         ;//create an instance of the phone class
-        clsBorrowerCollection Borrower = new clsBorrowerCollection();
+         Class_Library.clsBorrowerCollection Borrower = new  Class_Library.clsBorrowerCollection();
         Borrower.FilterbyPostCode(BorrowerPostCode);
         Int32 RecordCount;//var to store the count of records
         Int32 Index = 0;//var to store the index for the loop

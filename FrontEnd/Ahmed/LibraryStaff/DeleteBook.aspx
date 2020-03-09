@@ -34,7 +34,7 @@
         //function to delete the selected record
 
         //create a a new instance of the collection class
-        clsBookCollection Customers = new clsBookCollection();
+         Class_Library.clsBookCollection Customers = new  Class_Library.clsBookCollection();
         //find the record to delete 
         Customers.ThisBook.Find(ISBN);
         //display the PhoneID
@@ -44,7 +44,7 @@
     protected void btnDelete_Click(object sender, EventArgs e)
     {
         //create an instance of the class clsPhone called MyPhones
-        clsBookCollection MyBooks = new clsBookCollection();
+         Class_Library.clsBookCollection MyBooks = new  Class_Library.clsBookCollection();
         //declare a variable to store the PhoneID to delete
 
         //declare a boolean variable to record success of the delete operation

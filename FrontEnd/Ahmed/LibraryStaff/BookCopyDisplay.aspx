@@ -29,7 +29,7 @@
 
 
         ;//create an instance of the phone class
-        clsBookCollection Book = new clsBookCollection();
+         Class_Library.clsBookCollection Book = new  Class_Library.clsBookCollection();
         Book.FilterbyTitle(BookTitle);
         Int32 RecordCount;//var to store the count of records
         Int32 Index = 0;//var to store the index for the loop
