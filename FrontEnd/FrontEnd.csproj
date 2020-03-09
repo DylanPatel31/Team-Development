@@ -67,7 +67,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ahmed\AboutUs.html" />
     <Content Include="Ahmed\Borrower\BorrowerFines.aspx" />
+    <Content Include="Ahmed\Borrower\BorrowerLoans.aspx" />
+    <Content Include="Ahmed\Borrower\BorrowerMainMenu.aspx" />
+    <Content Include="Ahmed\Borrower\Calendar.html" />
+    <Content Include="Ahmed\Borrower\EditPersonalInfoBorrower.aspx" />
+    <Content Include="Ahmed\Borrower\LibraryNews.html" />
+    <Content Include="Ahmed\Borrower\Opening Hours.html" />
+    <Content Include="Ahmed\Borrower\PersonalInfoBorrower.aspx" />
+    <Content Include="Ahmed\Borrower\SearchBookBorrower.aspx" />
+    <Content Include="Ahmed\Borrower\SearchBookByBorrower.aspx" />
+    <Content Include="Ahmed\Borrower\SearchBookBySearching.aspx" />
+    <Content Include="Ahmed\Borrower\SearchBookToReserve.aspx" />
+    <Content Include="Ahmed\Borrower\SearchBookUser.aspx" />
+    <Content Include="Ahmed\Error.html" />
     <Content Include="Ahmed\HomePage.html" />
     <Content Include="Ahmed\imgfolder\Ahmed1.jpg" />
     <Content Include="Ahmed\imgfolder\Ahmed2.jpg" />
@@ -81,11 +95,59 @@
     <Content Include="Ahmed\imgfolder\ImageBook1.JPEG" />
     <Content Include="Ahmed\imgfolder\SHEIKHZ LIBRARY 1.png" />
     <Content Include="Ahmed\LibraryManager\AddBook.aspx" />
+    <Content Include="Ahmed\LibraryManager\AddBorrower.aspx" />
+    <Content Include="Ahmed\LibraryManager\AddCopy.aspx" />
+    <Content Include="Ahmed\LibraryManager\BookDisplay.aspx" />
+    <Content Include="Ahmed\LibraryManager\BorrowerDisplay.aspx" />
+    <Content Include="Ahmed\LibraryManager\DeleteBook.aspx" />
+    <Content Include="Ahmed\LibraryManager\DeleteBorrower.aspx" />
+    <Content Include="Ahmed\LibraryManager\DeleteCopy.aspx" />
+    <Content Include="Ahmed\LibraryManager\DisplayCopy.aspx" />
+    <Content Include="Ahmed\LibraryManager\EditPersonalInfo.aspx" />
+    <Content Include="Ahmed\LibraryManager\FinesManager.aspx" />
+    <Content Include="Ahmed\LibraryManager\IssueBookManager.aspx" />
+    <Content Include="Ahmed\LibraryManager\IssueBook_Manager.aspx" />
     <Content Include="Ahmed\LibraryManager\LibraryManagerMainMenu.aspx" />
+    <Content Include="Ahmed\LibraryManager\PaymentRegistrationManager.aspx" />
+    <Content Include="Ahmed\LibraryManager\PersonalInfo.aspx" />
+    <Content Include="Ahmed\LibraryManager\RemoveReservedBooks.aspx" />
+    <Content Include="Ahmed\LibraryManager\ReservationByManager.aspx" />
+    <Content Include="Ahmed\LibraryManager\ReservedBook.aspx" />
+    <Content Include="Ahmed\LibraryManager\ReturnBooks.aspx" />
+    <Content Include="Ahmed\LibraryManager\ReturnsRegisterByManager.aspx" />
+    <Content Include="Ahmed\LibraryManager\Suspend.aspx" />
+    <Content Include="Ahmed\LibraryManager\SuspendUser.aspx" />
+    <Content Include="Ahmed\LibraryManager\ViewFines.aspx" />
     <Content Include="Ahmed\LibraryStaff\AddBook.aspx" />
+    <Content Include="Ahmed\LibraryStaff\AddBorrower.aspx" />
+    <Content Include="Ahmed\LibraryStaff\AddCopy.aspx" />
+    <Content Include="Ahmed\LibraryStaff\BookCopyDisplay.aspx" />
+    <Content Include="Ahmed\LibraryStaff\BookDisplay.aspx" />
+    <Content Include="Ahmed\LibraryStaff\BorrowerDisplay.aspx" />
+    <Content Include="Ahmed\LibraryStaff\DeleteBook.aspx" />
+    <Content Include="Ahmed\LibraryStaff\DeleteBorrower.aspx" />
+    <Content Include="Ahmed\LibraryStaff\DeleteCopy.aspx" />
+    <Content Include="Ahmed\LibraryStaff\DisplayCopy.aspx" />
+    <Content Include="Ahmed\LibraryStaff\EditPersonalInfoStaff.aspx" />
+    <Content Include="Ahmed\LibraryStaff\FinesStaff.aspx" />
+    <Content Include="Ahmed\LibraryStaff\IssueBookStaff.aspx" />
+    <Content Include="Ahmed\LibraryStaff\IssueBook_Staff.aspx" />
+    <Content Include="Ahmed\LibraryStaff\LibraryStaffMainManu.aspx" />
+    <Content Include="Ahmed\LibraryStaff\PaymentRegistrationStaff.aspx" />
+    <Content Include="Ahmed\LibraryStaff\PersonalInfoStaff.aspx" />
+    <Content Include="Ahmed\LibraryStaff\RemoveReservedBooks.aspx" />
+    <Content Include="Ahmed\LibraryStaff\ReservationByStaff.aspx" />
+    <Content Include="Ahmed\LibraryStaff\ReservedBook.aspx" />
+    <Content Include="Ahmed\LibraryStaff\ReturnsRegisterByStaff.aspx" />
+    <Content Include="Ahmed\LibraryStaff\ViewFines.aspx" />
     <Content Include="Ahmed\LoginPage.html" />
     <Content Include="Ahmed\login_redirect.aspx" />
+    <Content Include="Ahmed\NeedHelp.html" />
+    <Content Include="Ahmed\Our partnership.html" />
+    <Content Include="Ahmed\SearchBooksBox.aspx" />
+    <Content Include="Ahmed\SearchBooksDisplay.aspx" />
     <Content Include="Ahmed\Style Sheikhz Library\StyleSheet.css" />
+    <Content Include="Ahmed\Suspend.html" />
     <Content Include="Clinton\AddRoom.aspx" />
     <Content Include="Clinton\EditRoom.aspx" />
     <Content Include="Clinton\Index.aspx" />
@@ -182,12 +244,229 @@
     <Compile Include="Ahmed\Borrower\BorrowerFines.aspx.designer.cs">
       <DependentUpon>BorrowerFines.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Ahmed\Borrower\BorrowerLoans.aspx.cs">
+      <DependentUpon>BorrowerLoans.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\BorrowerLoans.aspx.designer.cs">
+      <DependentUpon>BorrowerLoans.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\BorrowerMainMenu.aspx.cs">
+      <DependentUpon>BorrowerMainMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\BorrowerMainMenu.aspx.designer.cs">
+      <DependentUpon>BorrowerMainMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\EditPersonalInfoBorrower.aspx.cs">
+      <DependentUpon>EditPersonalInfoBorrower.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\EditPersonalInfoBorrower.aspx.designer.cs">
+      <DependentUpon>EditPersonalInfoBorrower.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\PersonalInfoBorrower.aspx.cs">
+      <DependentUpon>PersonalInfoBorrower.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\PersonalInfoBorrower.aspx.designer.cs">
+      <DependentUpon>PersonalInfoBorrower.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\SearchBookBorrower.aspx.cs">
+      <DependentUpon>SearchBookBorrower.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\SearchBookBorrower.aspx.designer.cs">
+      <DependentUpon>SearchBookBorrower.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\SearchBookByBorrower.aspx.cs">
+      <DependentUpon>SearchBookByBorrower.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\SearchBookByBorrower.aspx.designer.cs">
+      <DependentUpon>SearchBookByBorrower.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\SearchBookBySearching.aspx.cs">
+      <DependentUpon>SearchBookBySearching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\SearchBookBySearching.aspx.designer.cs">
+      <DependentUpon>SearchBookBySearching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\SearchBookToReserve.aspx.cs">
+      <DependentUpon>SearchBookToReserve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\SearchBookToReserve.aspx.designer.cs">
+      <DependentUpon>SearchBookToReserve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\SearchBookUser.aspx.cs">
+      <DependentUpon>SearchBookUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\Borrower\SearchBookUser.aspx.designer.cs">
+      <DependentUpon>SearchBookUser.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Ahmed\LibraryManager\AddBook.aspx.cs">
       <DependentUpon>AddBook.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Ahmed\LibraryManager\AddBook.aspx.designer.cs">
       <DependentUpon>AddBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\AddBorrower.aspx.cs">
+      <DependentUpon>AddBorrower.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\AddBorrower.aspx.designer.cs">
+      <DependentUpon>AddBorrower.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\AddCopy.aspx.cs">
+      <DependentUpon>AddCopy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\AddCopy.aspx.designer.cs">
+      <DependentUpon>AddCopy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\BookDisplay.aspx.cs">
+      <DependentUpon>BookDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\BookDisplay.aspx.designer.cs">
+      <DependentUpon>BookDisplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\BorrowerDisplay.aspx.cs">
+      <DependentUpon>BorrowerDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\BorrowerDisplay.aspx.designer.cs">
+      <DependentUpon>BorrowerDisplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\DeleteBook.aspx.cs">
+      <DependentUpon>DeleteBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\DeleteBook.aspx.designer.cs">
+      <DependentUpon>DeleteBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\DeleteBorrower.aspx.cs">
+      <DependentUpon>DeleteBorrower.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\DeleteBorrower.aspx.designer.cs">
+      <DependentUpon>DeleteBorrower.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\DeleteCopy.aspx.cs">
+      <DependentUpon>DeleteCopy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\DeleteCopy.aspx.designer.cs">
+      <DependentUpon>DeleteCopy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\DisplayCopy.aspx.cs">
+      <DependentUpon>DisplayCopy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\DisplayCopy.aspx.designer.cs">
+      <DependentUpon>DisplayCopy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\EditPersonalInfo.aspx.cs">
+      <DependentUpon>EditPersonalInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\EditPersonalInfo.aspx.designer.cs">
+      <DependentUpon>EditPersonalInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\FinesManager.aspx.cs">
+      <DependentUpon>FinesManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\FinesManager.aspx.designer.cs">
+      <DependentUpon>FinesManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\IssueBookManager.aspx.cs">
+      <DependentUpon>IssueBookManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\IssueBookManager.aspx.designer.cs">
+      <DependentUpon>IssueBookManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\IssueBook_Manager.aspx.cs">
+      <DependentUpon>IssueBook_Manager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\IssueBook_Manager.aspx.designer.cs">
+      <DependentUpon>IssueBook_Manager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\PaymentRegistrationManager.aspx.cs">
+      <DependentUpon>PaymentRegistrationManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\PaymentRegistrationManager.aspx.designer.cs">
+      <DependentUpon>PaymentRegistrationManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\PersonalInfo.aspx.cs">
+      <DependentUpon>PersonalInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\PersonalInfo.aspx.designer.cs">
+      <DependentUpon>PersonalInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\RemoveReservedBooks.aspx.cs">
+      <DependentUpon>RemoveReservedBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\RemoveReservedBooks.aspx.designer.cs">
+      <DependentUpon>RemoveReservedBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\ReservationByManager.aspx.cs">
+      <DependentUpon>ReservationByManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\ReservationByManager.aspx.designer.cs">
+      <DependentUpon>ReservationByManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\ReservedBook.aspx.cs">
+      <DependentUpon>ReservedBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\ReservedBook.aspx.designer.cs">
+      <DependentUpon>ReservedBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\ReturnBooks.aspx.cs">
+      <DependentUpon>ReturnBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\ReturnBooks.aspx.designer.cs">
+      <DependentUpon>ReturnBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\ReturnsRegisterByManager.aspx.cs">
+      <DependentUpon>ReturnsRegisterByManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\ReturnsRegisterByManager.aspx.designer.cs">
+      <DependentUpon>ReturnsRegisterByManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\Suspend.aspx.cs">
+      <DependentUpon>Suspend.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\Suspend.aspx.designer.cs">
+      <DependentUpon>Suspend.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\SuspendUser.aspx.cs">
+      <DependentUpon>SuspendUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\SuspendUser.aspx.designer.cs">
+      <DependentUpon>SuspendUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\ViewFines.aspx.cs">
+      <DependentUpon>ViewFines.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryManager\ViewFines.aspx.designer.cs">
+      <DependentUpon>ViewFines.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ahmed\LibraryStaff\AddBook.aspx.cs">
       <DependentUpon>AddBook.aspx</DependentUpon>
@@ -196,12 +475,185 @@
     <Compile Include="Ahmed\LibraryStaff\AddBook.aspx.designer.cs">
       <DependentUpon>AddBook.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Ahmed\LibraryStaff\AddBorrower.aspx.cs">
+      <DependentUpon>AddBorrower.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\AddBorrower.aspx.designer.cs">
+      <DependentUpon>AddBorrower.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\AddCopy.aspx.cs">
+      <DependentUpon>AddCopy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\AddCopy.aspx.designer.cs">
+      <DependentUpon>AddCopy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\BookCopyDisplay.aspx.cs">
+      <DependentUpon>BookCopyDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\BookCopyDisplay.aspx.designer.cs">
+      <DependentUpon>BookCopyDisplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\BookDisplay.aspx.cs">
+      <DependentUpon>BookDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\BookDisplay.aspx.designer.cs">
+      <DependentUpon>BookDisplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\BorrowerDisplay.aspx.cs">
+      <DependentUpon>BorrowerDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\BorrowerDisplay.aspx.designer.cs">
+      <DependentUpon>BorrowerDisplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\DeleteBook.aspx.cs">
+      <DependentUpon>DeleteBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\DeleteBook.aspx.designer.cs">
+      <DependentUpon>DeleteBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\DeleteBorrower.aspx.cs">
+      <DependentUpon>DeleteBorrower.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\DeleteBorrower.aspx.designer.cs">
+      <DependentUpon>DeleteBorrower.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\DeleteCopy.aspx.cs">
+      <DependentUpon>DeleteCopy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\DeleteCopy.aspx.designer.cs">
+      <DependentUpon>DeleteCopy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\DisplayCopy.aspx.cs">
+      <DependentUpon>DisplayCopy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\DisplayCopy.aspx.designer.cs">
+      <DependentUpon>DisplayCopy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\EditPersonalInfoStaff.aspx.cs">
+      <DependentUpon>EditPersonalInfoStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\EditPersonalInfoStaff.aspx.designer.cs">
+      <DependentUpon>EditPersonalInfoStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\FinesStaff.aspx.cs">
+      <DependentUpon>FinesStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\FinesStaff.aspx.designer.cs">
+      <DependentUpon>FinesStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\IssueBookStaff.aspx.cs">
+      <DependentUpon>IssueBookStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\IssueBookStaff.aspx.designer.cs">
+      <DependentUpon>IssueBookStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\IssueBook_Staff.aspx.cs">
+      <DependentUpon>IssueBook_Staff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\IssueBook_Staff.aspx.designer.cs">
+      <DependentUpon>IssueBook_Staff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\LibraryStaffMainManu.aspx.cs">
+      <DependentUpon>LibraryStaffMainManu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\LibraryStaffMainManu.aspx.designer.cs">
+      <DependentUpon>LibraryStaffMainManu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\PaymentRegistrationStaff.aspx.cs">
+      <DependentUpon>PaymentRegistrationStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\PaymentRegistrationStaff.aspx.designer.cs">
+      <DependentUpon>PaymentRegistrationStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\PersonalInfoStaff.aspx.cs">
+      <DependentUpon>PersonalInfoStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\PersonalInfoStaff.aspx.designer.cs">
+      <DependentUpon>PersonalInfoStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\RemoveReservedBooks.aspx.cs">
+      <DependentUpon>RemoveReservedBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\RemoveReservedBooks.aspx.designer.cs">
+      <DependentUpon>RemoveReservedBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\ReservationByStaff.aspx.cs">
+      <DependentUpon>ReservationByStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\ReservationByStaff.aspx.designer.cs">
+      <DependentUpon>ReservationByStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\ReservedBook.aspx.cs">
+      <DependentUpon>ReservedBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\ReservedBook.aspx.designer.cs">
+      <DependentUpon>ReservedBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\ReturnsRegisterByStaff.aspx.cs">
+      <DependentUpon>ReturnsRegisterByStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\ReturnsRegisterByStaff.aspx.designer.cs">
+      <DependentUpon>ReturnsRegisterByStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\ViewFines.aspx.cs">
+      <DependentUpon>ViewFines.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\LibraryStaff\ViewFines.aspx.designer.cs">
+      <DependentUpon>ViewFines.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Ahmed\login_redirect.aspx.cs">
       <DependentUpon>login_redirect.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Ahmed\login_redirect.aspx.designer.cs">
       <DependentUpon>login_redirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\NeedHelp.html.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\NeedHelp.html.designer.cs">
+      <DependentUpon>NeedHelp.html.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\Our partnership.html.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\Our partnership.html.designer.cs">
+      <DependentUpon>Our partnership.html.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\SearchBooksBox.aspx.cs">
+      <DependentUpon>SearchBooksBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\SearchBooksBox.aspx.designer.cs">
+      <DependentUpon>SearchBooksBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ahmed\SearchBooksDisplay.aspx.cs">
+      <DependentUpon>SearchBooksDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ahmed\SearchBooksDisplay.aspx.designer.cs">
+      <DependentUpon>SearchBooksDisplay.aspx</DependentUpon>
     </Compile>
     <Compile Include="Clinton\AddRoom.aspx.cs">
       <DependentUpon>AddRoom.aspx</DependentUpon>
