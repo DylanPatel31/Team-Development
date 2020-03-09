@@ -93,17 +93,17 @@
                                  ReservationDate = Convert.ToString(DB.DataTable.Rows[Index]["ReservationDate"]);
                                  ReservationID = Convert.ToString(DB.DataTable.Rows[Index]["ReservationID"]);
                                  //display firstname
-           Response.Write("<td><b>" + FirstName + "</b></td>");
-           //display surname
-           Response.Write("<td><b>" + LastName + "</b></td>");
-           //display the author column
-           Response.Write("<td><b>" + Author + "</b></td>");
-           //display the title column
-           Response.Write("<td><b>" + Title + "</b></td>");
-           //display res_date
-           Response.Write("<td><b>" + ReservationDate + "</b></td>");
+                                 Response.Write("<td><b>" + FirstName + "</b></td>");
+                                 //display surname
+                                 Response.Write("<td><b>" + LastName + "</b></td>");
+                                 //display the author column
+                                 Response.Write("<td><b>" + Author + "</b></td>");
+                                 //display the title column
+                                 Response.Write("<td><b>" + Title + "</b></td>");
+                                 //display res_date
+                                 Response.Write("<td><b>" + ReservationDate + "</b></td>");
                                  //display remove button
-                                Response.Write("<td colspan=2>" + "<button id='" + ReservationID + " 'type='submit' name='btnDeleteRes' name='Remove'value='" + ReservationID + "'>Remove</button></td>");
+                                 Response.Write("<td colspan=2>" + "<button id='" + ReservationID + " 'type='submit' name='btnDeleteRes' name='Remove'value='" + ReservationID + "'>Remove</button></td>");
                                  Response.Write("</td>");
                                  //point at the next record
                                  Index++;

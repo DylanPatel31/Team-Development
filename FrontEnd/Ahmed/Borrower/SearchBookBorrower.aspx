@@ -135,7 +135,7 @@
            Response.Write("<td><b>" + CopyStatus + "</b></td>");
            //Output the action button
 
-Response.Write("<td colspan=2><a class='adnotation' href='#'>" + "<button id='" + ISBN + " 'type='submit' name='btnReserveBook' href='LoginPage.html' name='ReserveBook'value=' " + ISBN + "'>Reserve Book</button><span>Please, login to reserve this book.</span></a></td>");
+           Response.Write("<td colspan=2><a class='adnotation' href='#'>" + "<button id='" + ISBN + " 'type='submit' name='btnReserveBook' href='LoginPage.html' name='ReserveBook'value=' " + ISBN + "'>Reserve Book</button><span>Please, login to reserve this book.</span></a></td>");
            Response.Write("</td>");
            //point at the next record
            Index++;

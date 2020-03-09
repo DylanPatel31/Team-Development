@@ -30,7 +30,7 @@
         Int32  FK_ISBN; //var to store the Device Name
 
         ;//create an instance of the phone class
-        clsCopyCollection Copy = new clsCopyCollection();
+         Class_Library.clsCopyCollection Copy = new  Class_Library.clsCopyCollection();
         Copy.FilterbyCopyStatus(BookCopyStatus);
         Int32 RecordCount;//var to store the count of records
         Int32 Index = 0;//var to store the index for the loop

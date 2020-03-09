@@ -36,7 +36,7 @@
     void DisplayCopies(Int32 CopyBarCode)
     {
         //create an instance of the phone class
-        clsCopyCollection ISBNS = new clsCopyCollection();
+         Class_Library.clsCopyCollection ISBNS = new  Class_Library.clsCopyCollection();
         //find the record we want to display
         ISBNS.ThisBook.Find(CopyBarCode);
         //display the house no
@@ -52,7 +52,7 @@
     void Add()
     {
         //create an instance of the OrderCollection class
-        clsCopyCollection ISBNS = new clsCopyCollection();
+         Class_Library.clsCopyCollection ISBNS = new  Class_Library.clsCopyCollection();
         //validate the data on the web form
         String Error = ISBNS.ThisBook.Valid(TextBoxCopyLoanType.Text, TextBoxCopyCondition.Text, TextBoxCopyStatus.Text, TextBoxFK_ISBN.Text );
         //if the data is OK then add it to the object
@@ -80,7 +80,7 @@
     void Update()
     {
         //create an instance of the OrderCollection class
-        clsCopyCollection ISBNS = new clsCopyCollection();
+         Class_Library.clsCopyCollection ISBNS = new  Class_Library.clsCopyCollection();
         //validate the data on the web form
         String Error = ISBNS.ThisBook.Valid(TextBoxCopyLoanType.Text, TextBoxCopyCondition.Text, TextBoxCopyStatus.Text, TextBoxFK_ISBN.Text );
         //if the data is OK then add it to the object
