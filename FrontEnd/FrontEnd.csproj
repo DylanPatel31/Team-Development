@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ahmed\Style Sheikhz Library\StyleSheet.css" />
     <Content Include="Clinton\AddRoom.aspx" />
     <Content Include="Clinton\EditRoom.aspx" />
     <Content Include="Clinton\Index.aspx" />
@@ -660,7 +661,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Ahmed\" />
+    <Folder Include="Ahmed\Borrower\" />
+    <Folder Include="Ahmed\imgfolder\" />
+    <Folder Include="Ahmed\LibraryManager\" />
+    <Folder Include="Ahmed\LibraryStaff\" />
     <Folder Include="Clinton\admin\room\" />
     <Folder Include="Dylan\" />
     <Folder Include="Irbaaz\" />
