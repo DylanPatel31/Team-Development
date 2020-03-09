@@ -1,0 +1,482 @@
+﻿/* FOOTER */
+.site-footer {
+    background: #FFFFFF;
+    color: #FFFFFF;
+    padding: 16px 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+
+/* FOOTER */
+
+
+article1 {
+    background-color: white;
+    color: #000000;
+    border: solid;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+
+section3 {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 48%;
+    left: 20%;
+    color: #000000;
+}
+
+
+
+
+
+section4 {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 64%;
+    left: 15%;
+    color: #873600
+}
+
+
+
+
+
+/* Map positioning */
+section2 {
+    position: absolute;
+    z-index: 14;
+    left: 55%;
+    top: 30.8%;
+}
+/* Map positioning */
+
+
+article {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 1.9%;
+    left: 1%;
+}
+
+
+
+/* CONTACT */
+.contact input {
+    margin-bottom: 16px;
+    border-radius: 2px;
+    border: 1px solid #DDDDDD;
+    padding: 8px;
+    width: 80%;
+}
+
+.contact .col-half {
+    margin-top: 16px;
+}
+/* CONTACT */
+
+
+
+
+
+/* HEADER */
+.top {
+    height: 60px;
+    background: #FFFFFF;
+}
+
+    .top a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+.logo {
+    float: left;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.main-menu {
+    float: right;
+}
+
+    .main-menu li {
+        float: left;
+        line-height: 60px;
+        padding: 0 10px;
+    }
+
+        .main-menu li :hover {
+            color: #000000;
+        }
+/* HEADER */
+
+
+
+
+
+/* BANNER */
+.banner {
+    color: #FFFFFF;
+    background: #000000;
+    margin-bottom: 50px;
+    background: url("../img/top.jpg") 0 -140px;
+    background-repeat: no-repeat;
+}
+
+    .banner h1 {
+        margin-bottom: 30px;
+    }
+/* BANNER */
+
+
+
+
+
+/* Background-Colour changer  */
+time {
+}
+
+/* Background-Colour changer  */
+
+
+
+
+
+
+/* TABLES */
+.tables table {
+    color: #000000;
+}
+
+    .tables table tr:nth-child(even) {
+        background-color: #FFFFFF;
+    }
+
+    .tables table th {
+        background-color: #FFA500;
+        color: white;
+    }
+
+    .tables table tr:hover {
+        background-color: #FF7F50;
+    }
+
+    .tables table th, td {
+        padding: 16px;
+        text-align: left;
+    }
+/* TABLES */
+
+
+
+
+
+
+
+
+/*  Below is one of the settings for the menu bar */
+ol, ul {
+    list-style: none;
+}
+/*  Below is one of the settings for the menu bar */
+
+
+
+
+
+/* GLOBAL TEXT STYLE */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E6E6FA;
+    line-height: 1.7;
+    margin: 0 0 100px;
+    background-color: #FFFFFF;
+}
+
+p {
+    margin-top: 6px;
+}
+
+h2, h3, h4, label {
+    color: #4B0082;
+}
+
+h1 {
+    font-size: 54px;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+}
+
+h1, h3, h4, strong {
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.title {
+    margin-top: 33px;
+}
+/* GLOBAL TEXT STYLE */
+
+
+
+
+
+/* COLUMNS, SECTIONS, CONTENERS */
+@media screen and (min-width: 960px) {
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+
+    .col-one-third {
+        width: 33.3333%;
+        float: left;
+    }
+
+    .col-half {
+        width: 50%;
+        float: left;
+    }
+
+    .one-col {
+        width: 100%;
+        float: left;
+    }
+}
+
+section {
+    clear: both;
+    padding: 0px 0;
+    overflow: auto;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: justify;
+}
+/* COLUMNS, SECTIONS, CONTENERS */
+
+
+
+
+
+/* BUTTONS */
+.button {
+    font-family: Arial, sant-serif;
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 16px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-light {
+    background: #FFA500;
+    color: #000000;
+}
+
+.button-dark {
+    background: #FFA500;
+    color: #FFFFFF;
+}
+
+.button:hover {
+    background: #FFA500;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #FFA500;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    border: none;
+    border-radius: 5px;
+}
+/* BUTTONS */
+
+
+
+
+
+/* SLIDER */
+
+#slider {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    border-radius: 0px 0px 4px 4px;
+    width: 100%;
+}
+
+.quanntitle {
+    z-index: 99988;
+    font-size: 70px;
+    width: 600px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    color: #FFD700;
+}
+
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    list-style: none;
+}
+
+    #slider ul li {
+        position: relative;
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 600px;
+        background: #ccc;
+        text-align: center;
+        line-height: 600px;
+    }
+
+a.control_prev, a.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 99989;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+    a.control_prev:hover, a.control_next:hover {
+        opacity: 1;
+        -webkit-transition: all 0.2s ease;
+    }
+
+a.control_prev {
+    border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+    position: relative;
+    margin: 10px auto;
+    width: 160px;
+    font-size: 18px;
+}
+/* SLIDER */
+
+
+
+
+
+/* DELETE BUTTONS HOVER  */
+a: hover {
+    background: #ffffff;
+    text-decoration: none;
+}
+
+a.adnotation span {
+    display: none;
+    padding: 2px 3px;
+    margin-left: 8px;
+    width: 130px;
+}
+
+img {
+    border: none;
+}
+
+a.adnotation:hover span {
+    display: inline;
+    position: absolute;
+    margin: 15px 0 0 5px;
+    background: #dddddd;
+    border: 1px solid #b30000;
+    color: #000000;
+    opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+    text-align: center;
+}
+/* DELETE BUTTONS HOVER  */
+
+
+.calendar-container {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 20%;
+    left: 20%;
+    color: #000000;
+}
+
+.SheikhzLibrary-container {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 20%;
+    left: 15%;
+    color: #000000;
+}
+
+.GoogleMap-container {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 16%;
+    left: 55%;
+    color: #000000;
+}
+
+
+.BookTable-container {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 16%;
+    left: 55%;
+    color: #000000;
+}
