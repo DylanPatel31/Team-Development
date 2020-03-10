@@ -185,6 +185,8 @@
     <Content Include="Mudrik\Images\jquery.js" />
     <Content Include="Mudrik\Images\script.js" />
     <Content Include="Mudrik\Images\scripts2.js" />
+    <Content Include="Mudrik\img\Admin1.jpg" />
+    <Content Include="Mudrik\img\Customer1.jpg" />
     <Content Include="Mudrik\img\Movie1.jpg" />
     <Content Include="Mudrik\img\Movie2.jpg" />
     <Content Include="Mudrik\img\Movie3.jpg" />
@@ -192,6 +194,7 @@
     <Content Include="Mudrik\img\Movie4.jpg" />
     <Content Include="Mudrik\img\Movie55.jpg" />
     <Content Include="Mudrik\img\movie77.png" />
+    <Content Include="Mudrik\img\Staff1.jpg" />
     <Content Include="Mudrik\index.html" />
     <Content Include="Mudrik\LoginPage.html" />
     <Content Include="Mudrik\login_redirect.aspx" />
@@ -657,6 +660,7 @@
     </Compile>
     <Compile Include="Clinton\AddRoom.aspx.cs">
       <DependentUpon>AddRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Clinton\AddRoom.aspx.designer.cs">
       <DependentUpon>AddRoom.aspx</DependentUpon>
@@ -670,12 +674,14 @@
     </Compile>
     <Compile Include="Clinton\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Clinton\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Clinton\ViewRoom.aspx.cs">
       <DependentUpon>ViewRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Clinton\ViewRoom.aspx.designer.cs">
       <DependentUpon>ViewRoom.aspx</DependentUpon>
@@ -878,6 +884,7 @@
     </Compile>
     <Compile Include="Mudrik\login_redirect.aspx.cs">
       <DependentUpon>login_redirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Mudrik\login_redirect.aspx.designer.cs">
       <DependentUpon>login_redirect.aspx</DependentUpon>
@@ -891,6 +898,7 @@
     </Compile>
     <Compile Include="Mudrik\Register2.aspx.cs">
       <DependentUpon>Register2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Mudrik\Register2.aspx.designer.cs">
       <DependentUpon>Register2.aspx</DependentUpon>

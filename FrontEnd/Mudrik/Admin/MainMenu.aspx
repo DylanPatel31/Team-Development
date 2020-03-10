@@ -45,14 +45,12 @@
         </div>
     </header>>
     <!-- HEADER --> 
-
+    <section20 >
+    <img src="../img/Admin1.jpg" alt="Smiley face" height="1050" width="1903">
+    </section20>
     <!-- Menu Buttons-->
-    <section class="AdminMenu">
-        <div class="container">
-            <h2 class="center-text">Admin Menu</h2>
-                             <form method="post" action="MainMenu.aspx">
-           
-                   
+    <section19 >
+                        <h2 class="center-text">Admin Menu</h2>
                         <a href="EditDetails_Admin.aspx" type="button" class="button button-dark" id="EditDetails"  > My Details </a><br />    
                         <a href="AddFilm.aspx" type="button" class="button button-dark" id="AddFilm"  >Add Film</a><br />
                         <a href="SearchFilm.aspx" type="button" class="button button-dark" id="SearchFilm" >Search Film</a><br />
@@ -65,12 +63,9 @@
                         <a href="BookFilm.aspx" type="button" class="button button-dark" id="NewMakeBooking"  >Make Booking</a><br />    
                         <a href="SearchBooking.aspx" type="button" class="button button-dark" id="RemoveBooking" >Remove Booking</a><br /> 
                         <a href="Reports.aspx" type="button" class="button button-dark" id="Reports">Reports </a><br />
+    </section19>
 
-                
-            </form>
-                </div>
-             
-    </section>
-   
+    
+
 </body>
 </html>

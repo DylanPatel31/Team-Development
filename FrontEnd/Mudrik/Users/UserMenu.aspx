@@ -40,29 +40,25 @@
         </div>
     </header>>
     <!-- HEADER --> 
+    <section20 >
+    <img src="../img/Customer1.jpg" alt="Smiley face" height="920" width="1903">
+    </section20>
 
     <!-- Menu Buttons-->
-    <section class="CustomerMenu">
-        <div class="container">
+   
+
+
+    <section19>
+        
             <h2 class="center-text">Customer Menu</h2>
-                             <form method="post" action="MainMenu.aspx.aspx">
-           
-                   
-                        <a href="EditDetails_Customer.aspx" type="button" class="button button-dark" id="EditDetails"  >Edit My Personal Details </a><br />    
+                             
+            <a href="EditDetails_Customer.aspx" type="button" class="button button-dark" id="EditDetails"  >Edit My Personal Details </a><br />    
                         <a href="SearchFilm.aspx" type="button" class="button button-dark" id="SearchFilm" >Search Film</a><br />
                         <a href="SearchShowing.aspx" type="button" class="button button-dark" id="NewShowing"  >View Showing List</a><br />  
                         <a href="BookFilm.aspx" type="button" class="button button-dark" id="NewMakeBooking"  >Make Booking</a><br />    
                         <a href="SearchBooking.aspx" type="button" class="button button-dark" id="RemoveBooking" >Cancel My Booking</a><br /> 
 
-                
-            </form>
-                </div>
-             
-    </section>
-
-
-
-
+    </section19>
 
 
 
