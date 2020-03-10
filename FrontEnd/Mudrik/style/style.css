@@ -38,7 +38,17 @@ section18 {
     left: 2%;
 }
 
+section19 {
+    position: absolute;
+    top: 6%;
+    left: 43%;
+}
 
+section20 {
+    position: absolute;
+    top: 6%;
+    left: 0%;
+}
 
 
 /* Map positioning */
