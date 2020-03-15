@@ -148,10 +148,70 @@
     <Content Include="Ahmed\SearchBooksDisplay.aspx" />
     <Content Include="Ahmed\Style Sheikhz Library\StyleSheet.css" />
     <Content Include="Ahmed\Suspend.html" />
-    <Content Include="Clinton\AddRoom.aspx" />
-    <Content Include="Clinton\EditRoom.aspx" />
+    <Content Include="Clinton\admin\home.aspx" />
+    <Content Include="Clinton\admin\Index.aspx" />
+    <Content Include="Clinton\admin\staff\AddStaff.aspx" />
+    <Content Include="Clinton\admin\staff\EditStaff.aspx" />
+    <Content Include="Clinton\admin\staff\Index.aspx" />
+    <Content Include="Clinton\admin\staff\ViewStaff.aspx" />
+    <Content Include="Clinton\asset\css\bootstrap-grid.css" />
+    <Content Include="Clinton\asset\css\bootstrap-grid.min.css" />
+    <Content Include="Clinton\asset\css\bootstrap-reboot.css" />
+    <Content Include="Clinton\asset\css\bootstrap-reboot.min.css" />
+    <Content Include="Clinton\asset\css\bootstrap.css" />
+    <Content Include="Clinton\asset\css\bootstrap.min.css" />
+    <Content Include="Clinton\asset\css\stylesheet.css" />
+    <Content Include="Clinton\asset\images\bg_2.jpg" />
+    <Content Include="Clinton\asset\images\index.jpg" />
+    <Content Include="Clinton\asset\images\special.jpg" />
+    <Content Include="Clinton\asset\js\bootstrap.bundle.js" />
+    <Content Include="Clinton\asset\js\bootstrap.bundle.min.js" />
+    <Content Include="Clinton\asset\js\bootstrap.js" />
+    <Content Include="Clinton\asset\js\bootstrap.min.js" />
+    <Content Include="Clinton\asset\js\jquery-3.4.1.min.js" />
+    <Content Include="Clinton\asset\js\main.js" />
+    <Content Include="Clinton\bin\Hotel Delux.dll" />
+    <Content Include="Clinton\bin\Hotel Delux.pdb" />
+    <Content Include="Clinton\bin\Microsoft.AI.Agent.Intercept.dll" />
+    <Content Include="Clinton\bin\Microsoft.AI.DependencyCollector.dll" />
+    <Content Include="Clinton\bin\Microsoft.AI.DependencyCollector.xml" />
+    <Content Include="Clinton\bin\Microsoft.AI.PerfCounterCollector.dll" />
+    <Content Include="Clinton\bin\Microsoft.AI.ServerTelemetryChannel.dll" />
+    <Content Include="Clinton\bin\Microsoft.AI.ServerTelemetryChannel.xml" />
+    <Content Include="Clinton\bin\Microsoft.AI.Web.dll" />
+    <Content Include="Clinton\bin\Microsoft.AI.Web.xml" />
+    <Content Include="Clinton\bin\Microsoft.AI.WindowsServer.dll" />
+    <Content Include="Clinton\bin\Microsoft.AI.WindowsServer.xml" />
+    <Content Include="Clinton\bin\Microsoft.ApplicationInsights.dll" />
+    <Content Include="Clinton\bin\Microsoft.ApplicationInsights.xml" />
+    <Content Include="Clinton\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="Clinton\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="Clinton\bin\roslyn\csc.exe" />
+    <Content Include="Clinton\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="Clinton\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="Clinton\bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="Clinton\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="Clinton\bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="Clinton\bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="Clinton\bin\roslyn\vbc.exe" />
+    <Content Include="Clinton\bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="Clinton\obj\Debug\Hotel Delux.csproj.FileListAbsolute.txt" />
+    <Content Include="Clinton\obj\Debug\Hotel Delux.dll" />
+    <Content Include="Clinton\obj\Debug\Hotel Delux.pdb" />
+    <Content Include="Clinton\scripts\ai.0.22.9-build00167.js" />
+    <Content Include="Clinton\scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Clinton\staff\CancelBooking.aspx" />
+    <Content Include="Clinton\staff\customer\AddCustomer.aspx" />
+    <Content Include="Clinton\staff\customer\EditCustomer.aspx" />
+    <Content Include="Clinton\staff\customer\Index.aspx" />
+    <Content Include="Clinton\staff\customer\ViewCustomer.aspx" />
+    <Content Include="Clinton\staff\Home.aspx" />
+    <Content Include="Clinton\staff\Index.aspx" />
+    <Content Include="Clinton\staff\MakeBooking.aspx" />
+    <Content Include="Clinton\staff\Payment.aspx" />
+    <Content Include="Clinton\staff\ViewCustomerBooking.aspx" />
+    <Content Include="Clinton\staff\ViewRoom.aspx" />
     <Content Include="Clinton\Index.aspx" />
-    <Content Include="Clinton\ViewRoom.aspx" />
     <Content Include="Mudrik\AboutUs.html" />
     <Content Include="Mudrik\Admin\AddCustomer.aspx" />
     <Content Include="Mudrik\Admin\AddCustomer2.aspx" />
@@ -240,6 +300,7 @@
     <Content Include="Mudrik\Users\SearchShowing_Action.aspx" />
     <Content Include="Mudrik\Users\SearchShowing_Action2.aspx" />
     <Content Include="Mudrik\Users\UserMenu.aspx" />
+    <Content Include="updated db of hotel management.sql" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -661,19 +722,136 @@
     <Compile Include="Ahmed\SearchBooksDisplay.aspx.designer.cs">
       <DependentUpon>SearchBooksDisplay.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Clinton\AddRoom.aspx.cs">
-      <DependentUpon>AddRoom.aspx</DependentUpon>
+    <Compile Include="Clinton\admin\home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Clinton\AddRoom.aspx.designer.cs">
-      <DependentUpon>AddRoom.aspx</DependentUpon>
+    <Compile Include="Clinton\admin\home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Clinton\EditRoom.aspx.cs">
-      <DependentUpon>EditRoom.aspx</DependentUpon>
+    <Compile Include="Clinton\admin\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Clinton\EditRoom.aspx.designer.cs">
-      <DependentUpon>EditRoom.aspx</DependentUpon>
+    <Compile Include="Clinton\admin\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\admin\staff\AddStaff.aspx.cs">
+      <DependentUpon>AddStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clinton\admin\staff\AddStaff.aspx.designer.cs">
+      <DependentUpon>AddStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\admin\staff\EditStaff.aspx.cs">
+      <DependentUpon>EditStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clinton\admin\staff\EditStaff.aspx.designer.cs">
+      <DependentUpon>EditStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\admin\staff\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clinton\admin\staff\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\admin\staff\ViewStaff.aspx.cs">
+      <DependentUpon>ViewStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clinton\admin\staff\ViewStaff.aspx.designer.cs">
+      <DependentUpon>ViewStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\Model classes\Admin.cs" />
+    <Compile Include="Clinton\Model classes\Booking.cs" />
+    <Compile Include="Clinton\Model classes\Customer.cs" />
+    <Compile Include="Clinton\Model classes\DbString.cs" />
+    <Compile Include="Clinton\Model classes\Room.cs" />
+    <Compile Include="Clinton\Model classes\RoomImages.cs" />
+    <Compile Include="Clinton\Model classes\Rooms.cs" />
+    <Compile Include="Clinton\Model classes\Staff.cs" />
+    <Compile Include="Clinton\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Clinton\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Clinton\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Clinton\Properties\AssemblyInfo.cs" />
+    <Compile Include="Clinton\staff\CancelBooking.aspx.cs">
+      <DependentUpon>CancelBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clinton\staff\CancelBooking.aspx.designer.cs">
+      <DependentUpon>CancelBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\staff\customer\AddCustomer.aspx.cs">
+      <DependentUpon>AddCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clinton\staff\customer\AddCustomer.aspx.designer.cs">
+      <DependentUpon>AddCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\staff\customer\EditCustomer.aspx.cs">
+      <DependentUpon>EditCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clinton\staff\customer\EditCustomer.aspx.designer.cs">
+      <DependentUpon>EditCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\staff\customer\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clinton\staff\customer\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\staff\customer\ViewCustomer.aspx.cs">
+      <DependentUpon>ViewCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clinton\staff\customer\ViewCustomer.aspx.designer.cs">
+      <DependentUpon>ViewCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\staff\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clinton\staff\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\staff\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clinton\staff\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\staff\MakeBooking.aspx.cs">
+      <DependentUpon>MakeBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clinton\staff\MakeBooking.aspx.designer.cs">
+      <DependentUpon>MakeBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\staff\Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clinton\staff\Payment.aspx.designer.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\staff\ViewCustomerBooking.aspx.cs">
+      <DependentUpon>ViewCustomerBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clinton\staff\ViewCustomerBooking.aspx.designer.cs">
+      <DependentUpon>ViewCustomerBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clinton\staff\ViewRoom.aspx.cs">
+      <DependentUpon>ViewRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clinton\staff\ViewRoom.aspx.designer.cs">
+      <DependentUpon>ViewRoom.aspx</DependentUpon>
     </Compile>
     <Compile Include="Clinton\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
@@ -681,13 +859,6 @@
     </Compile>
     <Compile Include="Clinton\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Clinton\ViewRoom.aspx.cs">
-      <DependentUpon>ViewRoom.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Clinton\ViewRoom.aspx.designer.cs">
-      <DependentUpon>ViewRoom.aspx</DependentUpon>
     </Compile>
     <Compile Include="Mudrik\Admin\AddCustomer.aspx.cs">
       <DependentUpon>AddCustomer.aspx</DependentUpon>
@@ -1161,6 +1332,27 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Clinton\asset\css\bootstrap-grid.css.map" />
+    <Content Include="Clinton\asset\css\bootstrap-grid.min.css.map" />
+    <Content Include="Clinton\asset\css\bootstrap-reboot.css.map" />
+    <Content Include="Clinton\asset\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Clinton\asset\css\bootstrap.css.map" />
+    <Content Include="Clinton\asset\css\bootstrap.min.css.map" />
+    <Content Include="Clinton\asset\js\bootstrap.bundle.js.map" />
+    <Content Include="Clinton\asset\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Clinton\asset\js\bootstrap.js.map" />
+    <Content Include="Clinton\asset\js\bootstrap.min.js.map" />
+    <Content Include="Clinton\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <Content Include="Clinton\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="Clinton\obj\Debug\Hotel Delux.csproj.CopyComplete" />
+    <Content Include="Clinton\obj\Debug\Hotel Delux.csproj.CoreCompileInputs.cache" />
+    <Content Include="Clinton\obj\Debug\Hotel Delux.csprojAssemblyReference.cache" />
+    <Content Include="Clinton\obj\Debug\Hotel Delux.csprojResolveAssemblyReference.cache" />
+    <Content Include="Clinton\bin\ApplicationInsights.config" />
+    <Content Include="Clinton\bin\Hotel Delux.dll.config" />
+    <Content Include="Clinton\bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="Clinton\bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="Clinton\bin\roslyn\VBCSCompiler.exe.config" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1171,6 +1363,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Clinton\admin\room\" />
+    <Folder Include="Clinton\asset\images\rooms\" />
+    <Folder Include="Clinton\obj\Debug\TempPE\" />
     <Folder Include="Dylan\" />
     <Folder Include="Irbaaz\" />
   </ItemGroup>
