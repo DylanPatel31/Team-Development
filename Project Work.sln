@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Library", "Class Libr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{F089DCF5-11E3-4B11-A976-57BDC621C410}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel Delux", "..\000_Latest work\Hotel Delux\Hotel Delux\Hotel Delux.csproj", "{0E1F7818-B75C-47B9-BE22-B91B0C37F778}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel Delux", "D:\000_Latest work\Hotel Delux\Hotel Delux\Hotel Delux.csproj", "{0E1F7818-B75C-47B9-BE22-B91B0C37F778}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
