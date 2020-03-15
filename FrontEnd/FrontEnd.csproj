@@ -163,8 +163,11 @@
     <Content Include="Mudrik\Admin\AddStaff2.aspx" />
     <Content Include="Mudrik\Admin\BookFilm.aspx" />
     <Content Include="Mudrik\Admin\BookFilm2.aspx" />
+    <Content Include="Mudrik\Admin\CustomerDetails.aspx" />
+    <Content Include="Mudrik\Admin\EditCustomer.aspx" />
     <Content Include="Mudrik\Admin\EditDetails_Admin.aspx" />
     <Content Include="Mudrik\Admin\EditDetails_Admin_Script.aspx" />
+    <Content Include="Mudrik\Admin\EditStaff.aspx" />
     <Content Include="Mudrik\Admin\MainMenu.aspx" />
     <Content Include="Mudrik\Admin\SearchBooking.aspx" />
     <Content Include="Mudrik\Admin\SearchBooking_Action.aspx" />
@@ -181,6 +184,7 @@
     <Content Include="Mudrik\Admin\SearchStaff.aspx" />
     <Content Include="Mudrik\Admin\SearchStaff_Action.aspx" />
     <Content Include="Mudrik\Admin\SearchStaff_Action2.aspx" />
+    <Content Include="Mudrik\Admin\StaffDetails.aspx" />
     <Content Include="Mudrik\Error.html" />
     <Content Include="Mudrik\Images\jquery.js" />
     <Content Include="Mudrik\Images\script.js" />
@@ -213,6 +217,8 @@
     <Content Include="Mudrik\Staff\AddShowing2.aspx" />
     <Content Include="Mudrik\Staff\BookFilm.aspx" />
     <Content Include="Mudrik\Staff\BookFilm2.aspx" />
+    <Content Include="Mudrik\Staff\CustomerDetails.aspx" />
+    <Content Include="Mudrik\Staff\EditCustomer.aspx" />
     <Content Include="Mudrik\Staff\EditDetails_Staff.aspx" />
     <Content Include="Mudrik\Staff\EditDetails_Staff_Script.aspx" />
     <Content Include="Mudrik\Staff\SearchBooking.aspx" />
@@ -759,6 +765,20 @@
     <Compile Include="Mudrik\Admin\BookFilm2.aspx.designer.cs">
       <DependentUpon>BookFilm2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Mudrik\Admin\CustomerDetails.aspx.cs">
+      <DependentUpon>CustomerDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\CustomerDetails.aspx.designer.cs">
+      <DependentUpon>CustomerDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\EditCustomer.aspx.cs">
+      <DependentUpon>EditCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\EditCustomer.aspx.designer.cs">
+      <DependentUpon>EditCustomer.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Mudrik\Admin\EditDetails_Admin.aspx.cs">
       <DependentUpon>EditDetails_Admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -772,6 +792,13 @@
     </Compile>
     <Compile Include="Mudrik\Admin\EditDetails_Admin_Script.aspx.designer.cs">
       <DependentUpon>EditDetails_Admin_Script.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Admin\EditStaff.aspx.cs">
+      <DependentUpon>EditStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\EditStaff.aspx.designer.cs">
+      <DependentUpon>EditStaff.aspx</DependentUpon>
     </Compile>
     <Compile Include="Mudrik\Admin\MainMenu.aspx.cs">
       <DependentUpon>MainMenu.aspx</DependentUpon>
@@ -885,6 +912,13 @@
     <Compile Include="Mudrik\Admin\SearchStaff_Action2.aspx.designer.cs">
       <DependentUpon>SearchStaff_Action2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Mudrik\Admin\StaffDetails.aspx.cs">
+      <DependentUpon>StaffDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Admin\StaffDetails.aspx.designer.cs">
+      <DependentUpon>StaffDetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Mudrik\login_redirect.aspx.cs">
       <DependentUpon>login_redirect.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -975,6 +1009,20 @@
     </Compile>
     <Compile Include="Mudrik\Staff\BookFilm2.aspx.designer.cs">
       <DependentUpon>BookFilm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\CustomerDetails.aspx.cs">
+      <DependentUpon>CustomerDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\CustomerDetails.aspx.designer.cs">
+      <DependentUpon>CustomerDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mudrik\Staff\EditCustomer.aspx.cs">
+      <DependentUpon>EditCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mudrik\Staff\EditCustomer.aspx.designer.cs">
+      <DependentUpon>EditCustomer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Mudrik\Staff\EditDetails_Staff.aspx.cs">
       <DependentUpon>EditDetails_Staff.aspx</DependentUpon>

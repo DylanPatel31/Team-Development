@@ -92,20 +92,7 @@ namespace Class_Library
 
 
 
-        //DateAdded private member variable
-        private DateTime mdateOfBirth;
-        //DateAdded public property
-        public DateTime dateOfBirth
-        {
-            get
-            {
-                return mdateOfBirth;
-            }
-            set
-            {
-                mdateOfBirth = value;
-            }
-        }
+
 
 
         //Memory private member variable
@@ -125,11 +112,11 @@ namespace Class_Library
 
 
 
-        public string UserValid(string firstName,
+        public string UserValid( string user_id,
+                                 string firstName,
                                  string surname,
                                  string email,
                                  string password,
-                                 string dateOfBirth,
                                  string fk1_userType_id)
 
         {
@@ -202,23 +189,7 @@ namespace Class_Library
                 //set the error messsage
                 ErrorMsg = ErrorMsg + " fk1_userType_id must be less than 50 characters. ";
             }
-
-
-
-
-            //test if the date is valid
-            try//try the operation
-            {
-                //var to store the date
-                DateTime Temp;
-                //assign the date to the temporary var
-                Temp = Convert.ToDateTime(dateOfBirth);
-            }
-            catch//if it failed report an error
-            {
-                //set the error messsage
-                ErrorMsg = ErrorMsg + "releaseDate is not valid. ";
-            }
+            
             //if there were no errors
             if (ErrorMsg == "")
             {
@@ -241,7 +212,7 @@ namespace Class_Library
             //add the phone no parameter
             dBConnection.AddParameter("user_id", user_id);
             //execute the query
-            dBConnection.Execute("sproc_FilterBy_UserIDD");
+            dBConnection.Execute("sproc_FilterBy_UserID2");
             //if the record was found
             if (dBConnection.Count == 1)
             {
@@ -255,8 +226,6 @@ namespace Class_Library
                 memail = Convert.ToString(dBConnection.DataTable.Rows[0]["email"]);
                 //get the ageRated
                 mpassword = Convert.ToString(dBConnection.DataTable.Rows[0]["password"]);
-                //get the releaseDate
-                mdateOfBirth = Convert.ToDateTime(dBConnection.DataTable.Rows[0]["dateOfBirth"]);
                 //return success
                 //get the director
                 mfk1_userType_id = Convert.ToString(dBConnection.DataTable.Rows[0]["fk1_userType_id"]);
