@@ -54,7 +54,8 @@
                         <a href="EditDetails_Staff.aspx" type="button" class="button button-dark" id="EditDetails"  > My Details </a><br />    
                         <a href="SearchFilm.aspx" type="button" class="button button-dark" id="SearchFilm" >Search Film</a><br />
                         <a href="AddCustomer.aspx" type="button" class="button button-dark" id="AddCustomer">Add Customer</a><br />
-                        <a href="SearchCustomer.aspx" type="button" class="button button-dark" id="SearchCustomer" >Search Customer</a><br />  
+                        <a href="EditCustomer.aspx" type="button" class="button button-dark" id="EditCustomer">Edit Customer Details</a><br />                
+                        <a href="SearchCustomer.aspx" type="button" class="button button-dark" id="SearchCustomer" >Delete Customer</a><br />  
                         <a href="AddShowing.aspx" type="button" class="button button-dark" id="NewShowing"  >New Showing</a><br /> 
                         <a href="SearchShowing.aspx" type="button" class="button button-dark" id="SearchShowing">Search Showing</a><br />
                         <a href="BookFilm.aspx" type="button" class="button button-dark" id="NewMakeBooking"  >Make Booking</a><br />    

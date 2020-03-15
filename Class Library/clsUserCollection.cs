@@ -61,7 +61,6 @@ namespace Class_Library
                     BlankPage.surname = Convert.ToString(dBConnection.DataTable.Rows[Index]["surname"]);
                     BlankPage.email = Convert.ToString(dBConnection.DataTable.Rows[Index]["email"]);
                     BlankPage.password = Convert.ToString(dBConnection.DataTable.Rows[Index]["password"]);
-                    BlankPage.dateOfBirth = Convert.ToDateTime(dBConnection.DataTable.Rows[Index]["dateOfBirth"]);
                     BlankPage.fk1_userType_id = Convert.ToString(dBConnection.DataTable.Rows[Index]["fk1_userType_id"]);
                     //add the blank page to the array list
                     mUserList.Add(BlankPage);
@@ -86,6 +85,16 @@ namespace Class_Library
             dBConnection.Execute("sproc_tblUser_FilterByStaffFirstName");
         }
 
+        public void FilterByFirstName2(string firstName)
+        // it accepts a single parameter DeviceName and returns no value
+        {
+            //initialise the DBConnection
+            dBConnection = new clsDataConnection();
+            //add the parameter data used by the stored procedure
+            dBConnection.AddParameter("@firstName", firstName);
+            //execute the stored procedure
+            dBConnection.Execute("sproc_tblUser_FilterByCustomerFirstName");
+        }
 
         public Int32 Count
         //public read only property for the count of records found
@@ -105,14 +114,14 @@ namespace Class_Library
             //connect to the database
             clsDataConnection NewDBPhone = new clsDataConnection();
             //add the parameters
+            NewDBPhone.AddParameter("@user_id", mThisUser.user_id);
             NewDBPhone.AddParameter("@firstName", mThisUser.firstName);
             NewDBPhone.AddParameter("@surname", mThisUser.surname);
             NewDBPhone.AddParameter("@email", mThisUser.email);
             NewDBPhone.AddParameter("@password", mThisUser.password);
-            NewDBPhone.AddParameter("@dateOfBirth", mThisUser.dateOfBirth);
             NewDBPhone.AddParameter("@fk1_userType_id", mThisUser.fk1_userType_id);
             //execute the stored procedure returning the primary key value of the new record
-            return NewDBPhone.Execute("sproc_tblUser_Insert");
+            return NewDBPhone.Execute("sproc_tblUser_Insert3");
         }
 
         public void Update()
@@ -128,10 +137,9 @@ namespace Class_Library
             ExistingDBPhone.AddParameter("@surname", mThisUser.surname);
             ExistingDBPhone.AddParameter("@email", mThisUser.email);
             ExistingDBPhone.AddParameter("@password", mThisUser.password);
-            ExistingDBPhone.AddParameter("@dateOfBirth", mThisUser.dateOfBirth);
             ExistingDBPhone.AddParameter("@fk1_userType_id", mThisUser.fk1_userType_id);
             //execute the query
-            ExistingDBPhone.Execute("sproc_tblUser_Update");
+            ExistingDBPhone.Execute("sproc_tblUser_Update3");
         }
 
         //public ThisFilm property
