@@ -36,7 +36,6 @@
     </header>>
     <!-- HEADER -->
 
-    
 
     <!-- form to searRch -->
     <div class="one-col"><div class="center-text">
