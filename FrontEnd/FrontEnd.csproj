@@ -194,6 +194,9 @@
     <Content Include="Mudrik\img\Movie4.jpg" />
     <Content Include="Mudrik\img\Movie55.jpg" />
     <Content Include="Mudrik\img\movie77.png" />
+    <Content Include="Mudrik\img\searchformbackcolor.jpg" />
+    <Content Include="Mudrik\img\searchformbackcolor2.jpg" />
+    <Content Include="Mudrik\img\searchformsbackcolor.png" />
     <Content Include="Mudrik\img\Staff1.jpg" />
     <Content Include="Mudrik\index.html" />
     <Content Include="Mudrik\LoginPage.html" />
