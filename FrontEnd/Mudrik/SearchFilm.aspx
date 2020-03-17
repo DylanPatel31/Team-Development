@@ -19,7 +19,9 @@
 
 </head>
 <body>
-    <!-- Header -->
+
+    <!-- My Header goes in this section -->
+
     <header class="top">
         <div class="container">
             <div class="logo">
@@ -34,10 +36,10 @@
             </div>
         </div>
     </header>>
-    <!-- HEADER -->
+    <!-- My Header goes in this section -->
 
 
-    <!-- form to searRch -->
+    <!-- My form to search films goes below -->
     <div class="one-col"><div class="center-text">
     <div class="title"><h2>Search Film</h2></div></div></div>
     <form id="form2" action="SearchFilm_Search.aspx">
@@ -53,9 +55,12 @@
                             
        </div></div> </div> </form>
   
+    <!-- My form to search films goes below -->
 
 
 
+
+    <!-- My table to list films goes below -->
 
       <div class="container">
           <div class="one-col">
@@ -155,7 +160,7 @@ Response.Write("<td colspan=2><a class='adnotation' href='#'>" + "<button id='" 
     
         </div>    
             
-
+     <!-- My table to list films goes below -->
 
 
 

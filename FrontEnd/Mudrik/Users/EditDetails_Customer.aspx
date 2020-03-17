@@ -44,7 +44,8 @@
             </div>
         </div>
     </header>>
-    <!-- HEADER -->
+   
+
     <!-- Edit details form-->
     <section class="edit_details">
         <div class="container">

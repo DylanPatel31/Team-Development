@@ -15,7 +15,9 @@
      %>
 </head>
 <body>
-    <!-- Header -->
+
+     <!-- My Header goes in this section -->
+
     <header class="top">
         <div class="container">
             <div class="logo">
@@ -28,7 +30,10 @@
             </div>
         </div>
     </header>>
-    <!-- HEADER -->
+     <!-- My Header goes in this section -->
+
+
+
     <!-- Register Form-->
     <section class="customer_details">
         <div class="container">
@@ -86,5 +91,8 @@
             </div>
         </div>
     </section>
+
+    <!-- Register Form-->
+
 </body>
 </html>

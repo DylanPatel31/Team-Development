@@ -19,7 +19,10 @@
 
 </head>
 <body>
-    <!-- Header -->
+
+
+    <!-- My Header goes in this section -->
+
     <header class="top">
         <div class="container">
             <div class="logo">
@@ -34,10 +37,10 @@
             </div>
         </div>
     </header>>
-    <!-- HEADER -->
+    <!-- My Header goes in this section -->
 
 
-    <!-- form to search -->
+    <!-- My form to search films goes below -->
     <div class="one-col"><div class="center-text">
     <div class="title"><h2>Search Film</h2></div></div></div>
     <form id="form2" action="SearchFilm_Search.aspx">
@@ -52,7 +55,12 @@
                         <button type="submit" class="button button-dark" id="submit" value="submit">Search</button>
                             
        </div></div> </div> </form>
-    <!-- form to search -->
+    <!-- My form to search films goes below -->
+
+
+
+     <!-- My table to list films goes below -->
+
     <div class="container">
           <div class="tables">
         <div class="one-col">
@@ -158,7 +166,7 @@
         </form></div></div></div></div>
 
 
-
+     <!-- My table to list films goes below -->
 
 
 
