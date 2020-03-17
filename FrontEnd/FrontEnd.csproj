@@ -306,7 +306,6 @@
     <Content Include="Mudrik\Users\SearchShowing_Action.aspx" />
     <Content Include="Mudrik\Users\SearchShowing_Action2.aspx" />
     <Content Include="Mudrik\Users\UserMenu.aspx" />
-    <Content Include="updated db of hotel management.sql" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
