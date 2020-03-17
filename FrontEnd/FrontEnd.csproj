@@ -249,6 +249,7 @@
     <Content Include="Mudrik\Images\jquery.js" />
     <Content Include="Mudrik\Images\script.js" />
     <Content Include="Mudrik\Images\scripts2.js" />
+    <Content Include="Mudrik\img\AboutUs5.jpg" />
     <Content Include="Mudrik\img\Admin1.jpg" />
     <Content Include="Mudrik\img\Customer1.jpg" />
     <Content Include="Mudrik\img\Movie1.jpg" />
@@ -258,9 +259,6 @@
     <Content Include="Mudrik\img\Movie4.jpg" />
     <Content Include="Mudrik\img\Movie55.jpg" />
     <Content Include="Mudrik\img\movie77.png" />
-    <Content Include="Mudrik\img\searchformbackcolor.jpg" />
-    <Content Include="Mudrik\img\searchformbackcolor2.jpg" />
-    <Content Include="Mudrik\img\searchformsbackcolor.png" />
     <Content Include="Mudrik\img\Staff1.jpg" />
     <Content Include="Mudrik\index.html" />
     <Content Include="Mudrik\LoginPage.html" />
