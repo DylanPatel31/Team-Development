@@ -50,13 +50,15 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Dylan\tstOrder.cs" />
+    <Compile Include="Dylan\tstStaff.cs" />
+    <Compile Include="Dylan\tstStaffCollection.cs" />
     <Compile Include="Irbaaz\tstTeams.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Ahmed\" />
     <Folder Include="Clinton\" />
-    <Folder Include="Dylan\" />
     <Folder Include="Mudrik\" />
   </ItemGroup>
   <ItemGroup>

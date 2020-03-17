@@ -212,6 +212,12 @@
     <Content Include="Clinton\staff\ViewCustomerBooking.aspx" />
     <Content Include="Clinton\staff\ViewRoom.aspx" />
     <Content Include="Clinton\Index.aspx" />
+    <Content Include="Dylan\Admin\AStaffMember.aspx" />
+    <Content Include="Dylan\Admin\DeleteManufacturer.aspx" />
+    <Content Include="Dylan\Admin\DeleteStaff.aspx" />
+    <Content Include="Dylan\Admin\ManufacturerManagement.aspx" />
+    <Content Include="Dylan\Admin\StaffManagement.aspx" />
+    <Content Include="Dylan\Admin\AManufacturer.aspx" />
     <Content Include="Mudrik\AboutUs.html" />
     <Content Include="Mudrik\Admin\AddCustomer.aspx" />
     <Content Include="Mudrik\Admin\AddCustomer2.aspx" />
@@ -863,6 +869,48 @@
     <Compile Include="Clinton\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Dylan\Admin\AStaffMember.aspx.cs">
+      <DependentUpon>AStaffMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dylan\Admin\AStaffMember.aspx.designer.cs">
+      <DependentUpon>AStaffMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dylan\Admin\DeleteManufacturer.aspx.cs">
+      <DependentUpon>DeleteManufacturer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dylan\Admin\DeleteManufacturer.aspx.designer.cs">
+      <DependentUpon>DeleteManufacturer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dylan\Admin\DeleteStaff.aspx.cs">
+      <DependentUpon>DeleteStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dylan\Admin\DeleteStaff.aspx.designer.cs">
+      <DependentUpon>DeleteStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dylan\Admin\ManufacturerManagement.aspx.cs">
+      <DependentUpon>ManufacturerManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dylan\Admin\ManufacturerManagement.aspx.designer.cs">
+      <DependentUpon>ManufacturerManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dylan\Admin\StaffManagement.aspx.cs">
+      <DependentUpon>StaffManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dylan\Admin\StaffManagement.aspx.designer.cs">
+      <DependentUpon>StaffManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dylan\Admin\AManufacturer.aspx.cs">
+      <DependentUpon>AManufacturer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dylan\Admin\AManufacturer.aspx.designer.cs">
+      <DependentUpon>AManufacturer.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Mudrik\Admin\AddCustomer.aspx.cs">
       <DependentUpon>AddCustomer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1410,7 +1458,7 @@
     <Folder Include="Clinton\admin\room\" />
     <Folder Include="Clinton\asset\images\rooms\" />
     <Folder Include="Clinton\obj\Debug\TempPE\" />
-    <Folder Include="Dylan\" />
+    <Folder Include="Dylan\Staff\" />
     <Folder Include="Irbaaz\" />
   </ItemGroup>
   <ItemGroup>
