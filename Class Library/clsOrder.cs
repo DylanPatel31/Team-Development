@@ -24,7 +24,7 @@ namespace Class_Library
         {
 
         }
-        public int CustomerNo
+        public int UserNo
         {
             get
             {
@@ -91,9 +91,9 @@ namespace Class_Library
             }
         }
 
-       /* public bool Find(int orderNo)
-        {
+       //public bool Find(int orderNo)
+        //{
             
-        }*/
+        //}
     }
 }

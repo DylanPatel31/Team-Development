@@ -52,11 +52,15 @@
     <Compile Include="clsDataConnection.cs" />
     <Compile Include="clsFilm.cs" />
     <Compile Include="clsFilmCollection.cs" />
+    <Compile Include="clsManufacturer.cs" />
+    <Compile Include="clsManufacturerCollection.cs" />
     <Compile Include="clsOrder.cs" />
     <Compile Include="clsScreening.cs" />
     <Compile Include="clsScreeningCollection.cs" />
     <Compile Include="clsStaff.cs" />
     <Compile Include="clsStaffCollection.cs" />
+    <Compile Include="clsStock.cs" />
+    <Compile Include="clsStockCollection.cs" />
     <Compile Include="clsTeam.cs" />
     <Compile Include="clsUser.cs" />
     <Compile Include="clsUserCollection.cs" />
