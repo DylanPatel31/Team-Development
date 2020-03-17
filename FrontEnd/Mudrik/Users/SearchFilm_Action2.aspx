@@ -79,7 +79,7 @@
         //check delete value
         if (delete != null)
         {
-            //send the isbn number to the delete procedue
+            //send the primary key number to the stored procedue
             DB.AddParameter("@delete", delete);
             //execute delete stored procedure
             DB.Execute("sproc_tblFilm_Delete");

@@ -40,13 +40,17 @@
         </div>
     </header>>
     <!-- HEADER --> 
+
+
+    <!-- Background Image code goes here --> 
     <section20 >
     <img src="../img/Customer1.jpg" alt="Smiley face" height="920" width="1903">
     </section20>
+    <!-- Background Image code goes here --> 
+
+
 
     <!-- Menu Buttons-->
-   
-
 
     <section19>
         
@@ -59,6 +63,17 @@
                         <a href="SearchBooking.aspx" type="button" class="button button-dark" id="RemoveBooking" >Cancel My Booking</a><br /> 
 
     </section19>
+    <!-- Menu Buttons-->
+
+
+
+
+
+
+
+
+
+
 
 
 
