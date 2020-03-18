@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Framework", "Test Fram
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Library", "Class Library\Class Library.csproj", "{30029452-BA29-46EB-B9F5-BBF30B1F03B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{F089DCF5-11E3-4B11-A976-57BDC621C410}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "..\0000 group work\FrontEnd\FrontEnd.csproj", "{F089DCF5-11E3-4B11-A976-57BDC621C410}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
