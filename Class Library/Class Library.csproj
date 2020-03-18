@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsCartItem.cs" />
     <Compile Include="clsBook.cs" />
     <Compile Include="clsBookCollection.cs" />
     <Compile Include="clsBookCopy.cs" />
@@ -47,6 +48,7 @@
     <Compile Include="clsBookingCollection.cs" />
     <Compile Include="clsBorrower.cs" />
     <Compile Include="clsBorrowerCollection.cs" />
+    <Compile Include="clsCart.cs" />
     <Compile Include="clsCopy.cs" />
     <Compile Include="clsCopyCollection.cs" />
     <Compile Include="clsDataConnection.cs" />
