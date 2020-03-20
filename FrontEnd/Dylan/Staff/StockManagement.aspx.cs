@@ -1,26 +1,24 @@
-﻿using Class_Library;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-
-namespace FrontEnd.Dylan.Admin
+namespace FrontEnd.Dylan.Staff
 {
-    public partial class Staff_Management : System.Web.UI.Page
+    public partial class StockManagement : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
             //if this is the first appearence of this form
             if (IsPostBack == false)
             {
                 //display all staff
-                DisplayStaff("");
+                DisplayStock("");
             }
-        }//
-
+        }
 
         protected void btnDelete_Click1(object sender, EventArgs e)
         {
@@ -32,14 +30,14 @@ namespace FrontEnd.Dylan.Admin
             /// this section of code will contain the presentation layers code that allows us to delete a record 
             //var to store th primary key value
 
-            Int32 StaffNo;
+            Int32 ShoeNo;
             //check the list has been clicked first
-            if (lstStaff.SelectedIndex != -1)
+            if (lstStock.SelectedIndex != -1)
             {
                 //get the primary key value from the list box
-                StaffNo = Convert.ToInt32(lstStaff.SelectedValue);
+                ShoeNo = Convert.ToInt32(lstStock.SelectedValue);
                 //redirect to the editing page
-                Response.Redirect("DeleteStaff.aspx?StaffNo=" + StaffNo);
+                Response.Redirect("DeleteStock.aspx?ShoeNo=" + ShoeNo);
             }
             else
             {
@@ -66,39 +64,39 @@ namespace FrontEnd.Dylan.Admin
             DisplayStaff("");
         }
 
-        Int32 DisplayStaff(string LastNameFilter)
+        Int32 DisplayStock(string ManufacturerNameFilter)
         {
 
             //var to store the primary key
-            Int32 StaffNo;
+            Int32 ShoeNo;
             //va to store the manufacturer
-            string LastName;
+            string ManufacturerName;
             //var to store laptop name
-            string FirstName;
+            string ShoeName;
             //create an instance of the laptop collection class
-            clsStaffCollection Staff = new clsStaffCollection();
-            Staff.FilterByLastName(LastNameFilter);
+            clsStockCollection Stock = new clsStockCollection();
+            Stock.FilterByManufacturerName(ManufacturerNameFilter);
             //var to store the count of records
             Int32 RecordCount;
             //var to store the index for the loop
             Int32 Index = 0;
             //get the count of records
-            RecordCount = Staff.Count;
+            RecordCount = Stock.Count;
             //clear the list box
-            lstStaff.Items.Clear();
+            lstStock.Items.Clear();
             //while there are records to process
             while (Index < RecordCount)
             {
                 //get the primary key
-                StaffNo = Staff.StaffList[Index].StaffNo;
+                ShoeNo = Stock.StockList[Index].ShoeNo;
                 //get the manufacturer
-                LastName = Staff.StaffList[Index].LastName;
+                ManufacturerName = Stock.StockList[Index].ManufacturerName;
                 //get the laptop name
-                FirstName = Staff.StaffList[Index].FirstName;
+                ShoeName = Stock.StockList[Index].ShoeName;
                 //create a new entry for the list box
-                ListItem NewEntry = new ListItem(LastName + " " + FirstName, StaffNo.ToString());
+                ListItem NewEntry = new ListItem(ManufacturerName + " " + ShoeName, ShoeNo.ToString());
                 //add the laptp to the list
-                lstStaff.Items.Add(NewEntry);
+                lstStock.Items.Add(NewEntry);
                 //move the index to the next record
                 Index++;
 
@@ -106,33 +104,8 @@ namespace FrontEnd.Dylan.Admin
             }
             //return the count of records found
             return RecordCount;
-        }
+        }//
 
-        protected void btnEdit_Click(object sender, EventArgs e)
-        {
-            //var to store th primary key value
-            Int32 StaffNo;
-            //check the list has been clicked first
-            if (lstStaff.SelectedIndex != -1)
-            {
-                //get the primary key value from the list box
-                StaffNo = Convert.ToInt32(lstStaff.SelectedValue);
-                //redirect to the editing page
-                Response.Redirect("AStaffMember.aspx?StaffNo=" + StaffNo);
-            }
-            else
-            {
-                //display an error
-                lblError.Text = "You must select an item off the list first to edit it.";
 
-            }
-
-        }
-        protected void btnApply_Click(object sender, EventArgs e)
-        {
-            //display only the addresses matching the text in the manufacturer text box
-            DisplayStaff(txtLastName.Text);
-        }
     }
-
 }

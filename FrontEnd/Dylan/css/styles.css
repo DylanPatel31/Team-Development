@@ -1,0 +1,49 @@
+﻿body {
+    margin: 0;
+}
+
+header, nav {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #cc7a00;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    font-family: sans-serif;
+    /* grouped on left or right (start or end)*/
+    align-items: stretch;
+    /*horizontal or vertical (row or column)*/
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+
+main {
+    width: 88%;
+    padding-left: 1em;
+    padding-right: 1em;
+    box-sizing: border-box;
+    float: right;
+}
+
+
+/* for the links in the nav */
+a {
+    color: white;
+    padding: 1em;
+    transition: background-color 0.25s;
+    background-color: #000000;
+    text-decoration: none;
+}
+
+    /* colour that shows when you hover over the text */
+    a:hover {
+        background-color: #999999;
+    }
