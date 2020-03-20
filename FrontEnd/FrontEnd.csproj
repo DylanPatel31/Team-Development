@@ -218,6 +218,9 @@
     <Content Include="Dylan\Admin\ManufacturerManagement.aspx" />
     <Content Include="Dylan\Admin\StaffManagement.aspx" />
     <Content Include="Dylan\Admin\AManufacturer.aspx" />
+    <Content Include="Dylan\Staff\AStock.aspx" />
+    <Content Include="Dylan\Staff\DeleteStock.aspx" />
+    <Content Include="Dylan\Staff\StockManagement.aspx" />
     <Content Include="Mudrik\AboutUs.html" />
     <Content Include="Mudrik\Admin\AddCustomer.aspx" />
     <Content Include="Mudrik\Admin\AddCustomer2.aspx" />
@@ -911,6 +914,27 @@
     <Compile Include="Dylan\Admin\AManufacturer.aspx.designer.cs">
       <DependentUpon>AManufacturer.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Dylan\Staff\AStock.aspx.cs">
+      <DependentUpon>AStock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dylan\Staff\AStock.aspx.designer.cs">
+      <DependentUpon>AStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dylan\Staff\DeleteStock.aspx.cs">
+      <DependentUpon>DeleteStock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dylan\Staff\DeleteStock.aspx.designer.cs">
+      <DependentUpon>DeleteStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dylan\Staff\StockManagement.aspx.cs">
+      <DependentUpon>StockManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dylan\Staff\StockManagement.aspx.designer.cs">
+      <DependentUpon>StockManagement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Mudrik\Admin\AddCustomer.aspx.cs">
       <DependentUpon>AddCustomer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1458,7 +1482,6 @@
     <Folder Include="Clinton\admin\room\" />
     <Folder Include="Clinton\asset\images\rooms\" />
     <Folder Include="Clinton\obj\Debug\TempPE\" />
-    <Folder Include="Dylan\Staff\" />
     <Folder Include="Irbaaz\" />
   </ItemGroup>
   <ItemGroup>

@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Class_Library;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+
 
 namespace FrontEnd.Dylan.Admin
 {
@@ -36,7 +38,7 @@ namespace FrontEnd.Dylan.Admin
                 //get the primary key value from the list box
                 StaffNo = Convert.ToInt32(lstStaff.SelectedValue);
                 //redirect to the editing page
-                Response.Redirect("Delete.aspx?StaffNo=" + StaffNo);
+                Response.Redirect("DeleteStaff.aspx?StaffNo=" + StaffNo);
             }
             else
             {
@@ -54,7 +56,7 @@ namespace FrontEnd.Dylan.Admin
         protected void btnAdd_Click(object sender, EventArgs e)
         {
             //redirect to edit/add page
-            Response.Redirect("AAStaffMember.aspx?StaffNo= -1");
+            Response.Redirect("AStaffMember.aspx?StaffNo= -1");
         }
 
         protected void btnDisplayAll_Click(object sender, EventArgs e)
@@ -73,8 +75,8 @@ namespace FrontEnd.Dylan.Admin
             //var to store laptop name
             string FirstName;
             //create an instance of the laptop collection class
-            clsStaffCollection DB = new clsStaffCollection();
-            DB.FilterByLastName(LastNameFilter);
+            clsStaffCollection Staff = new clsStaffCollection();
+            Staff.FilterByLastName(LastNameFilter);
             //var to store the count of records
             Int32 RecordCount;
             //var to store the index for the loop

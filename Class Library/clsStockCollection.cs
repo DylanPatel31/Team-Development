@@ -124,6 +124,17 @@ namespace Class_Library
             return DB.Execute("sproc_tblStock_Insert");
         }
 
+        public void FilterByManufacturerName(string ManufacturerName)
+        // it accepts a single parameter Manufacturer and returns no value
+        {
+            //initialise the DBConnection
+            DB = new clsDataConnection();
+            //add the parameter data used by the stored procedure
+            DB.AddParameter("@ManufacturerName", ManufacturerName);
+            //execute the stored procedure to delete the laptop
+            DB.Execute("sproc_FilterBy_ManufacturerNameStock");
+        }
+
         public void Update()
         {
             ///this function will update an existing shoe to the databas

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AStaffMember.aspx.cs" Inherits="FrontEnd.Dylan.Admin.AStaffMember" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AStaffMember.aspx.cs" Inherits="FrontEnd.Dylan.Admin.AStaffMember" %>
 
 <!DOCTYPE html>
 
@@ -19,14 +19,14 @@
         <asp:Label ID="lblAddress2" runat="server" style="z-index: 1; left: 367px; top: 180px; position: absolute" Text="Address 2"></asp:Label>
         <asp:Label ID="lblCity" runat="server" style="z-index: 1; left: 365px; top: 258px; position: absolute; bottom: 387px" Text="City"></asp:Label>
         <asp:Label ID="lblPostCode" runat="server" style="z-index: 1; left: 366px; top: 324px; position: absolute" Text="Post Code"></asp:Label>
-        <asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; left: 104px; top: 117px; position: absolute; bottom: 525px"></asp:TextBox>
-        <asp:TextBox ID="TextBox2" runat="server" style="z-index: 1; left: 109px; top: 181px; position: absolute"></asp:TextBox>
-        <asp:TextBox ID="TextBox3" runat="server" style="z-index: 1; left: 108px; top: 252px; position: absolute"></asp:TextBox>
-        <asp:TextBox ID="TextBox4" runat="server" style="z-index: 1; left: 113px; top: 318px; position: absolute"></asp:TextBox>
-        <asp:TextBox ID="TextBox5" runat="server" style="z-index: 1; left: 446px; top: 119px; position: absolute"></asp:TextBox>
-        <asp:TextBox ID="TextBox6" runat="server" style="z-index: 1; left: 446px; top: 182px; position: absolute"></asp:TextBox>
-        <asp:TextBox ID="TextBox7" runat="server" style="z-index: 1; left: 449px; top: 259px; position: absolute"></asp:TextBox>
-        <asp:TextBox ID="TextBox8" runat="server" style="z-index: 1; left: 454px; top: 321px; position: absolute"></asp:TextBox>
+        <asp:TextBox ID="txtTitle" runat="server" style="z-index: 1; left: 104px; top: 117px; position: absolute; bottom: 525px"></asp:TextBox>
+        <asp:TextBox ID="txtFirstName" runat="server" style="z-index: 1; left: 109px; top: 181px; position: absolute"></asp:TextBox>
+        <asp:TextBox ID="txtLastName" runat="server" style="z-index: 1; left: 108px; top: 252px; position: absolute"></asp:TextBox>
+        <asp:TextBox ID="txtDateofBirth" runat="server" style="z-index: 1; left: 113px; top: 318px; position: absolute"></asp:TextBox>
+        <asp:TextBox ID="txtAddress1" runat="server" style="z-index: 1; left: 446px; top: 119px; position: absolute"></asp:TextBox>
+        <asp:TextBox ID="txtAddress2" runat="server" style="z-index: 1; left: 446px; top: 182px; position: absolute"></asp:TextBox>
+        <asp:TextBox ID="txtCity" runat="server" style="z-index: 1; left: 449px; top: 259px; position: absolute"></asp:TextBox>
+        <asp:TextBox ID="txtPostCode" runat="server" style="z-index: 1; left: 454px; top: 321px; position: absolute"></asp:TextBox>
         <asp:Label ID="lblError" runat="server" style="z-index: 1; left: 42px; top: 458px; position: absolute"></asp:Label>
         <asp:Button ID="btnOk" runat="server" style="z-index: 1; left: 366px; top: 415px; position: absolute; width: 60px" Text="OK" />
         <asp:Button ID="btnCancel" runat="server" OnClick="btnCancel_Click" style="z-index: 1; left: 446px; top: 415px; position: absolute; width: 66px" Text="Cancel" />

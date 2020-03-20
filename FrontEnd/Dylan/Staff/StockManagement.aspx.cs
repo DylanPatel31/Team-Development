@@ -1,15 +1,14 @@
-﻿using System;
+﻿using Class_Library;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using Class_Library;
 
-
-namespace FrontEnd.Dylan.Admin
+namespace FrontEnd.Dylan.Staff
 {
-    public partial class ManufacturerManagement : System.Web.UI.Page
+    public partial class StockManagement : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -17,7 +16,7 @@ namespace FrontEnd.Dylan.Admin
             if (IsPostBack == false)
             {
                 //display all staff
-                DisplayManufacturer("");
+                DisplayStock("");
             }
         }
 
@@ -31,14 +30,14 @@ namespace FrontEnd.Dylan.Admin
             /// this section of code will contain the presentation layers code that allows us to delete a record 
             //var to store th primary key value
 
-            Int32 ManufacturerNo;
+            Int32 ShoeNo;
             //check the list has been clicked first
-            if (lstManufacturer.SelectedIndex != -1)
+            if (lstStock.SelectedIndex != -1)
             {
                 //get the primary key value from the list box
-                ManufacturerNo = Convert.ToInt32(lstManufacturer.SelectedValue);
+                ShoeNo = Convert.ToInt32(lstStock.SelectedValue);
                 //redirect to the editing page
-                Response.Redirect("DeleteManufacturer.aspx?ManufacturerNo=" + ManufacturerNo);
+                Response.Redirect("DeleteStock.aspx?ShoeNo=" + ShoeNo);
             }
             else
             {
@@ -56,48 +55,48 @@ namespace FrontEnd.Dylan.Admin
         protected void btnAdd_Click(object sender, EventArgs e)
         {
             //redirect to edit/add page
-            Response.Redirect("AManufacturer.aspx?ManufacturerNo= -1");
+            Response.Redirect("AStock.aspx?ShoeNo= -1");
         }
 
         protected void btnDisplayAll_Click(object sender, EventArgs e)
         {
             //display all laptops
-            DisplayManufacturer("");
+            DisplayStock("");
         }
 
-        Int32 DisplayManufacturer(string ManufacturerNameFilter)
+        Int32 DisplayStock(string ManufacturerNameFilter)
         {
 
             //var to store the primary key
-            Int32 ManufacturerNo;
+            Int32 ShoeNo;
             //va to store the manufacturer
             string ManufacturerName;
             //var to store laptop name
-            string ManufacturerTelephone;
+            string ShoeName;
             //create an instance of the laptop collection class
-            clsManufacturerCollection Manufacturer = new clsManufacturerCollection();
-            Manufacturer.FilterByManufacturerName(ManufacturerNameFilter);
+            clsStockCollection Stock = new clsStockCollection();
+            Stock.FilterByManufacturerName(ManufacturerNameFilter);
             //var to store the count of records
             Int32 RecordCount;
             //var to store the index for the loop
             Int32 Index = 0;
             //get the count of records
-            RecordCount = Manufacturer.Count;
+            RecordCount = Stock.Count;
             //clear the list box
-            lstManufacturer.Items.Clear();
+            lstStock.Items.Clear();
             //while there are records to process
             while (Index < RecordCount)
             {
                 //get the primary key
-                ManufacturerNo = Manufacturer.ManufacturerList[Index].ManufacturerNo;
+                ShoeNo = Stock.StockList[Index].ShoeNo;
                 //get the manufacturer
-                ManufacturerName = Manufacturer.ManufacturerList[Index].ManufacturerName;
+                ManufacturerName = Stock.StockList[Index].ManufacturerName;
                 //get the laptop name
-                ManufacturerTelephone = Manufacturer.ManufacturerList[Index].ManufacturerTelephone;
+                ShoeName = Stock.StockList[Index].ShoeName;
                 //create a new entry for the list box
-                ListItem NewEntry = new ListItem(ManufacturerName + " " + ManufacturerTelephone, ManufacturerNo.ToString());
+                ListItem NewEntry = new ListItem(ManufacturerName + " " + ShoeName, ShoeNo.ToString());
                 //add the laptp to the list
-                lstManufacturer.Items.Add(NewEntry);
+                lstStock.Items.Add(NewEntry);
                 //move the index to the next record
                 Index++;
 
@@ -110,14 +109,14 @@ namespace FrontEnd.Dylan.Admin
         protected void btnEdit_Click(object sender, EventArgs e)
         {
             //var to store th primary key value
-            Int32 ManufacturerNo;
+            Int32 ShoeNo;
             //check the list has been clicked first
-            if (lstManufacturer.SelectedIndex != -1)
+            if (lstStock.SelectedIndex != -1)
             {
                 //get the primary key value from the list box
-                ManufacturerNo = Convert.ToInt32(lstManufacturer.SelectedValue);
+                ShoeNo = Convert.ToInt32(lstStock.SelectedValue);
                 //redirect to the editing page
-                Response.Redirect("AManufacturer.aspx?ManufacturerNo=" + ManufacturerNo);
+                Response.Redirect("AStock.aspx?ShoeNo=" + ShoeNo);
             }
             else
             {
@@ -131,10 +130,8 @@ namespace FrontEnd.Dylan.Admin
         protected void btnApply_Click(object sender, EventArgs e)
         {
             //display only the addresses matching the text in the manufacturer text box
-            DisplayManufacturer(txtManufacturer.Text);
+            DisplayStock(txtManufacturerName.Text);
         }
-
-
 
     }
 }

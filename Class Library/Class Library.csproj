@@ -57,6 +57,7 @@
     <Compile Include="clsManufacturer.cs" />
     <Compile Include="clsManufacturerCollection.cs" />
     <Compile Include="clsOrder.cs" />
+    <Compile Include="clsOrderCollection.cs" />
     <Compile Include="clsScreening.cs" />
     <Compile Include="clsScreeningCollection.cs" />
     <Compile Include="clsStaff.cs" />

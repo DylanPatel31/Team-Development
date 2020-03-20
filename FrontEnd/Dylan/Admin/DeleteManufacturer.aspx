@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteManufacturer.aspx.cs" Inherits="FrontEnd.Dylan.Admin.DeleteManufacturer" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="DeleteManufacturer.aspx.cs" Inherits="FrontEnd.Dylan.Admin.DeleteManufacturer" %>
 
 <!DOCTYPE html>
 
