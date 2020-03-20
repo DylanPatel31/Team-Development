@@ -63,7 +63,7 @@ namespace Class_Library
                     AStock.ShoeName = Convert.ToString(DB.DataTable.Rows[Index]["ShoeName"]);
                     AStock.MainColour = Convert.ToString(DB.DataTable.Rows[Index]["MainColour"]);
                     AStock.ManufacturerName = Convert.ToString(DB.DataTable.Rows[Index]["ManufacturerName"]);
-                    AStock.Price = Convert.ToString(DB.DataTable.Rows[Index]["ManufacturerName"]);                 
+                    AStock.Price = Convert.ToString(DB.DataTable.Rows[Index]["ManufacturerName"]);
                     //add the record to the private data member
                     mStockList.Add(AStock);
                     //point at the next record
@@ -118,10 +118,21 @@ namespace Class_Library
             DB.AddParameter("@MainColour", mThisStock.MainColour);
             DB.AddParameter("@ManufactureName", mThisStock.ManufacturerName);
             DB.AddParameter("@Price", mThisStock.Price);
-  
+
 
             //execute the stored procedure returning the primary key value of the new record
             return DB.Execute("sproc_tblStock_Insert");
+        }
+
+        public void FilterByManufacturerName(string ManufacturerName)
+        // it accepts a single parameter Manufacturer and returns no value
+        {
+            //initialise the DBConnection
+            DB = new clsDataConnection();
+            //add the parameter data used by the stored procedure
+            DB.AddParameter("@ManufacturerName", ManufacturerName);
+            //execute the stored procedure to delete the laptop
+            DB.Execute("sproc_FilterBy_ManufacturerNameStock");
         }
 
         public void Update()
@@ -143,5 +154,5 @@ namespace Class_Library
         }
     }
 }
-    
+
 

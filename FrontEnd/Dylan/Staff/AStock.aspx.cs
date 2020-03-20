@@ -1,93 +1,96 @@
-﻿using Class_Library;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace FrontEnd.Dylan.Admin
+namespace FrontEnd.Dylan.Staff
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class AStock : System.Web.UI.Page
     {
-        Int32 ManufacturerNo;
+        Int32 ShoeNo;
         protected void Page_Load(object sender, EventArgs e)
         {
             //copy the data from the query string to the variable
-            ManufacturerNo = Convert.ToInt32(Request.QueryString["ManufacturerNo"]);
+            ShoeNo = Convert.ToInt32(Request.QueryString["ShoeNo"]);
             if (IsPostBack != true)
             {
 
                 //if the LaptopNo is not -1 then display the data from the record
-                if (ManufacturerNo != -1)
+                if (ShoeNo != -1)
                 {
                     //display the existing data
-                    DisplayManufacturer(ManufacturerNo);
+                    DisplayStock(ShoeNo);
                 }
 
             }
         }
-
         //this function displays the data for a staff member on the web form
-        void DisplayManufacturer(Int32 ManufacturerNo)
+        void DisplayStock(Int32 ShoeNo)
         {
             //create an instance of the laptops class
-            clsManufacturer Manufacturer = new clsManufacturer();
+            clsStock Stock = new clsStock();
             //find the record we want to display
-            Manufacturer.Find(ManufacturerNo);
+            Stock.Find(ShoeNo);
             //display title
-            txtManufacturerName.Text = Manufacturer.ManufacturerName;
+            txtShoeName.Text = Stock.ShoeName;
             //display fname
-            txtManufacturerTelephone.Text = Manufacturer.ManufacturerTelephone;
+            txtMainColour.Text = Stock.MainColour;
             //display lname
-            txtManufacturerEmail.Text = Manufacturer.ManufacturerEmail;
-
+            txtManufacturerName.Text = Stock.ManufacturerName;
+            //display dob
+            txtPrice.Text = Stock.Price;
         }
+        //end
 
         protected void btnOK_Click(object sender, EventArgs e)
         {
             //create an instance of the address page class
-            clsManufacturer ThisManufacturer = new clsManufacturer();
+            clsStock ThisStock = new clsStock();
             //var to store any error message
             string ErrorMessage;
             //test the data on teh web form
-            ErrorMessage = ThisManufacturer.Valid(
+            ErrorMessage = ThisStock.Valid(
+                                                  txtShoeName.Text,
+                                                  txtMainColour.Text,
                                                   txtManufacturerName.Text,
-                                                  txtManufacturerTelephone.Text,
-                                                  txtManufacturerEmail.Text);
+                                                  txtPrice.Text);
 
 
             //if there is no error message
             if (ErrorMessage == "")
             {
                 //create a new instance of the address book class
-                clsManufacturerCollection Manufacturer = new clsManufacturerCollection();
+                clsStockCollection Stock = new clsStockCollection();
                 //do something with the data - insert or update
                 //
                 //if the Laptop Number is -1
-                if (ManufacturerNo == -1)
+                if (ShoeNo == -1)
                 {
                     //copy the data from the interface to the object;
-                    Manufacturer.ThisManufacturer.ManufacturerName = txtManufacturerName.Text;
-                    Manufacturer.ThisManufacturer.ManufacturerTelephone = txtManufacturerTelephone.Text;
-                    Manufacturer.ThisManufacturer.ManufacturerEmail = txtManufacturerEmail.Text;
+                    Stock.ThisStock.ShoeName = txtShoeName.Text;
+                    Stock.ThisStock.MainColour = txtMainColour.Text;
+                    Stock.ThisStock.ManufacturerName = txtManufacturerName.Text;
+                    Stock.ThisStock.Price = txtPrice.Text;
                     //add the new record
-                    Manufacturer.Add();
+                    Stock.Add();
 
                 }
                 else
                 {
                     //this is an existing record
                     //copy the data from the interface to the object
-                    Manufacturer.ThisManufacturer.ManufacturerName = txtManufacturerName.Text;
-                    Manufacturer.ThisManufacturer.ManufacturerTelephone = txtManufacturerTelephone.Text;
-                    Manufacturer.ThisManufacturer.ManufacturerEmail = txtManufacturerEmail.Text;
+                    Stock.ThisStock.ShoeName = txtShoeName.Text;
+                    Stock.ThisStock.MainColour = txtMainColour.Text;
+                    Stock.ThisStock.ManufacturerName = txtManufacturerName.Text;
+                    Stock.ThisStock.Price = txtPrice.Text;
                     //update the existing record
-                    Manufacturer.Update();
+                    Stock.Update();
 
                 }
                 //redircet bact to the main page
-                Response.Redirect("ManufacturerManagement.aspx");
+                Response.Redirect("StockManagement.aspx");
             }
             else
             {
@@ -96,12 +99,11 @@ namespace FrontEnd.Dylan.Admin
             }
 
         }
-
+        //end
         protected void btnCancel_Click(object sender, EventArgs e)
         {
             //redircet back to the main page
-            Response.Redirect("ManufacturerManagement.aspx");
+            Response.Redirect("StockManagement.aspx");
         }
-
     }
 }

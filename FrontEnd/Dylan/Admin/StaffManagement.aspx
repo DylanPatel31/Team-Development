@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="StaffManagement.aspx.cs" Inherits="FrontEnd.Dylan.Admin.StaffManagement" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="StaffManagement.aspx.cs" Inherits="FrontEnd.Dylan.Admin.Staff_Management" %>
 
-<!DOCTYPE html>
+<<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Laptops</title>
+    <title></title>
 </head>
 <body style="background-color: #C0C0C0">
     <form id="form1" runat="server">
@@ -17,7 +17,7 @@
             &nbsp;</p>
         <asp:Label ID="lblLastName" runat="server" style="z-index: 1; left: 12px; top: 430px; position: absolute; height: 27px; width: 381px; right: 629px; margin-bottom: 0px; font-weight: 700; color: #000000;" Text="Please enter the last name of the person" Font-Names="Cambria" Font-Size="Large"></asp:Label>
         <p>
-            <asp:Button ID="btnApply" runat="server" style="z-index: 1; left: 442px; top: 452px; position: absolute; height: 39px; width: 130px; right: 1047px; font-weight: 700;" Text="Apply" OnClick="btnApply_Click" Font-Names="Arial" Font-Size="Medium" />
+            <asp:Button ID="btnApply" runat="server" style="z-index: 1; left: 442px; top: 452px; position: absolute; height: 39px; width: 130px; right: 1047px; font-weight: 700;" Text="Apply" OnClick="btnApply_Click" Font-Names="Arial" Font-Size="Medium" Font-Bold="False" />
         </p>
         <asp:Button ID="btnDelete" runat="server"  style="z-index: 1; left: 243px; top: 626px; position: absolute; height: 30px; width: 90px; font-weight: 700;" Text="Delete" OnClick="btnDelete_Click1" Font-Names="Arial" Font-Size="Medium" />
         <p>
@@ -34,5 +34,5 @@
             &nbsp;</p>
       
     </form>
-</body>
+</body> 
 </html>

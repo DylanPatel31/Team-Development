@@ -148,12 +148,20 @@
     <Content Include="Ahmed\SearchBooksDisplay.aspx" />
     <Content Include="Ahmed\Style Sheikhz Library\StyleSheet.css" />
     <Content Include="Ahmed\Suspend.html" />
+    <Content Include="Dylan\Contact.html" />
+    <Content Include="Dylan\Admin\AdminHome.aspx" />
     <Content Include="Dylan\Admin\AManufacturer.aspx" />
     <Content Include="Dylan\Admin\AStaffMember.aspx" />
     <Content Include="Dylan\Admin\DeleteManufacturer.aspx" />
     <Content Include="Dylan\Admin\DeleteStaff.aspx" />
     <Content Include="Dylan\Admin\ManufacturerManagement.aspx" />
     <Content Include="Dylan\Admin\StaffManagement.aspx" />
+    <Content Include="Dylan\css\styles.css" />
+    <Content Include="Dylan\Shoes.html" />
+    <Content Include="Dylan\SneakerSelectHome.html" />
+    <Content Include="Dylan\Staff\AStock.aspx" />
+    <Content Include="Dylan\Staff\DeleteStock.aspx" />
+    <Content Include="Dylan\Staff\StockManagement.aspx" />
     <Content Include="Mudrik\AboutUs.html" />
     <Content Include="Mudrik\Admin\AddCustomer.aspx" />
     <Content Include="Mudrik\Admin\AddCustomer2.aspx" />
@@ -493,6 +501,13 @@
       <DependentUpon>SearchBooksDisplay.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Dylan\Admin\AdminHome.aspx.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dylan\Admin\AdminHome.aspx.designer.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Dylan\Admin\AManufacturer.aspx.cs">
       <DependentUpon>AManufacturer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -519,6 +534,27 @@
     </Compile>
     <Compile Include="Dylan\Admin\StaffManagement.aspx.designer.cs">
       <DependentUpon>StaffManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dylan\Staff\AStock.aspx.cs">
+      <DependentUpon>AStock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dylan\Staff\AStock.aspx.designer.cs">
+      <DependentUpon>AStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dylan\Staff\DeleteStock.aspx.cs">
+      <DependentUpon>DeleteStock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dylan\Staff\DeleteStock.aspx.designer.cs">
+      <DependentUpon>DeleteStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dylan\Staff\StockManagement.aspx.cs">
+      <DependentUpon>StockManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dylan\Staff\StockManagement.aspx.designer.cs">
+      <DependentUpon>StockManagement.aspx</DependentUpon>
     </Compile>
     <Compile Include="Mudrik\Admin\AddCustomer.aspx.cs">
       <DependentUpon>AddCustomer.aspx</DependentUpon>
@@ -833,7 +869,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Dylan\Staff\" />
     <Folder Include="Irbaaz\" />
   </ItemGroup>
   <PropertyGroup>

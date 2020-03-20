@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Class_Library
 {
-   public class clsStaff
+    public class clsStaff
     {
         //private data member for the StaffNo property
         private Int32 mStaffNo;
@@ -17,7 +17,7 @@ namespace Class_Library
         //private data member for the LastName property
         private string mLastName;
         ////private data member for the DateOfBirth property
-        private DateTime mDateofBirth;
+        private string mDateofBirth;
         //private data member for the Address1 property
         private string mAddress1;
         //private data member for the Address2 property
@@ -86,7 +86,7 @@ namespace Class_Library
                 mCity = value;
             }
         }
-        public DateTime DateofBirth
+        public string DateofBirth
         {
             get
             {
@@ -175,7 +175,7 @@ namespace Class_Library
                 //get the surname
                 mLastName = Convert.ToString(DB.DataTable.Rows[0]["LastName"]);
                 //get the 
-                mDateofBirth = Convert.ToDateTime(DB.DataTable.Rows[0]["DateofBirth"]);
+                mDateofBirth = Convert.ToString(DB.DataTable.Rows[0]["DateofBirth"]);
                 //
                 mAddress1 = Convert.ToString(DB.DataTable.Rows[0]["Address1"]);
                 //
