@@ -10,7 +10,7 @@
 namespace FrontEnd.Mudrik.Admin {
     
     
-    public partial class EditStaff {
+    public partial class EditStaff1 {
         
         /// <summary>
         /// form1 control.
@@ -76,15 +76,6 @@ namespace FrontEnd.Mudrik.Admin {
         protected global::System.Web.UI.WebControls.Label lblStaff;
         
         /// <summary>
-        /// btnAddStaff control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAddStaff;
-        
-        /// <summary>
         /// btnDisplayAllStaff control.
         /// </summary>
         /// <remarks>
@@ -92,14 +83,5 @@ namespace FrontEnd.Mudrik.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnDisplayAllStaff;
-        
-        /// <summary>
-        /// btnDeleteStaff control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnDeleteStaff;
     }
 }

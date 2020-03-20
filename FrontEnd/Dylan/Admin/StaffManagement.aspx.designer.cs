@@ -10,7 +10,7 @@
 namespace FrontEnd.Dylan.Admin {
     
     
-    public partial class Staff_Management {
+    public partial class StaffManagement {
         
         /// <summary>
         /// form1 control.

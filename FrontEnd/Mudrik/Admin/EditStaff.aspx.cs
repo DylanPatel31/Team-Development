@@ -4,9 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+
 namespace FrontEnd.Mudrik.Admin
 {
-    public partial class EditStaff : System.Web.UI.Page
+    public partial class EditStaff1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -19,7 +20,7 @@ namespace FrontEnd.Mudrik.Admin
 
         }
 
-     
+
         Int32 DisplayUser(string FirstNameFilter)
         {
             Int32 user_id;//var to store the primary key
@@ -45,6 +46,5 @@ namespace FrontEnd.Mudrik.Admin
             }
             return RecordCount;//return the count of the records found
         }
-
-       
+    }
 }

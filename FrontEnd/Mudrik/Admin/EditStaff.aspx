@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EditStaff.aspx.cs" Inherits="FrontEnd.Mudrik.Admin.EditStaff1" %>
 
 <!DOCTYPE html>
 

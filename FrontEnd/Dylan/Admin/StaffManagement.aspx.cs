@@ -4,10 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Class_Library;
 
 namespace FrontEnd.Dylan.Admin
 {
-    public partial class Staff_Management : System.Web.UI.Page
+    public partial class StaffManagement : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -80,18 +81,18 @@ namespace FrontEnd.Dylan.Admin
             //var to store the index for the loop
             Int32 Index = 0;
             //get the count of records
-            RecordCount = Staff.Count;
+            RecordCount = DB.Count;
             //clear the list box
             lstStaff.Items.Clear();
             //while there are records to process
             while (Index < RecordCount)
             {
                 //get the primary key
-                StaffNo = Staff.StaffList[Index].StaffNo;
+                StaffNo = DB.StaffList[Index].StaffNo;
                 //get the manufacturer
-                LastName = Staff.StaffList[Index].LastName;
+                LastName = DB.StaffList[Index].LastName;
                 //get the laptop name
-                FirstName = Staff.StaffList[Index].FirstName;
+                FirstName = DB.StaffList[Index].FirstName;
                 //create a new entry for the list box
                 ListItem NewEntry = new ListItem(LastName + " " + FirstName, StaffNo.ToString());
                 //add the laptp to the list
@@ -131,8 +132,5 @@ namespace FrontEnd.Dylan.Admin
             //display only the addresses matching the text in the manufacturer text box
             DisplayStaff(txtLastName.Text);
         }
-
-      
     }
-
 }

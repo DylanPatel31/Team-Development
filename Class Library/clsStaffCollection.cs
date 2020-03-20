@@ -86,7 +86,10 @@ namespace Class_Library
                 }
             }
 
-       
+        public void FilterByLastName(string lastNameFilter)
+        {
+            throw new NotImplementedException();
+        }
 
         public Int32 Add()
         ///this function will add a new phone to the database

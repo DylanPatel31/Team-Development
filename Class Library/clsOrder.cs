@@ -76,7 +76,7 @@ namespace Class_Library
                 mOrderNo = value;
             }
         }
-       
+
         public string CardNo
         {
             get
@@ -127,4 +127,10 @@ namespace Class_Library
                 Index++;
             }
         }
+
+        public bool Find(int orderNo)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
